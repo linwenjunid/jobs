@@ -1,0 +1,929 @@
+/python3/lib/python3.6/site-packages/celery/platforms.py:796: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2018-08-17 01:27:49,380: INFO/MainProcess] Connected to redis://:**@192.168.134.151:6379/0
+/python3/lib/python3.6/site-packages/celery/platforms.py:796: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2018-08-17 01:27:49,387: INFO/MainProcess] Connected to redis://:**@192.168.134.151:6379/0
+/python3/lib/python3.6/site-packages/celery/platforms.py:796: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2018-08-17 01:27:49,407: INFO/MainProcess] Connected to redis://:**@192.168.134.151:6379/0
+[2018-08-17 01:27:49,424: INFO/MainProcess] mingle: searching for neighbors
+[2018-08-17 01:27:49,431: INFO/MainProcess] mingle: searching for neighbors
+[2018-08-17 01:27:49,447: INFO/MainProcess] mingle: searching for neighbors
+/python3/lib/python3.6/site-packages/celery/platforms.py:796: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2018-08-17 01:27:49,809: INFO/MainProcess] Connected to redis://:**@192.168.134.151:6379/0
+[2018-08-17 01:27:49,848: INFO/MainProcess] mingle: searching for neighbors
+[2018-08-17 01:27:50,510: INFO/MainProcess] mingle: all alone
+[2018-08-17 01:27:50,514: INFO/MainProcess] mingle: all alone
+[2018-08-17 01:27:50,514: INFO/MainProcess] mingle: all alone
+[2018-08-17 01:27:50,574: INFO/MainProcess] celery@n2 ready.
+[2018-08-17 01:27:50,581: INFO/MainProcess] celery@n3 ready.
+[2018-08-17 01:27:50,604: INFO/MainProcess] celery@n5 ready.
+[2018-08-17 01:27:50,877: INFO/MainProcess] mingle: all alone
+[2018-08-17 01:27:50,886: INFO/MainProcess] celery@n4 ready.
+[2018-08-17 01:28:08,788: INFO/MainProcess] Received task: app.tasks.firing[dbbc5f3f-46c0-4911-9306-dcea91e3f631]  
+/python3/lib/python3.6/site-packages/celery/platforms.py:796: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2018-08-17 01:28:08,792: WARNING/ForkPoolWorker-1] ----Fire Start----
+[2018-08-17 01:28:08,812: INFO/MainProcess] Received task: app.tasks.queueing[658f33c8-1b4d-4dc0-b6f3-b0bd89bf8bf5]  
+[2018-08-17 01:28:08,813: INFO/MainProcess] Received task: app.tasks.working[0df27c0d-8626-44e1-9622-0207b2752062]  
+/python3/lib/python3.6/site-packages/celery/platforms.py:796: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2018-08-17 01:28:08,816: WARNING/ForkPoolWorker-1] ----Queue Start----
+/python3/lib/python3.6/site-packages/celery/platforms.py:796: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2018-08-17 01:28:08,834: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:28:09,277: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:28:09,280: INFO/ForkPoolWorker-1] Task app.tasks.queueing[658f33c8-1b4d-4dc0-b6f3-b0bd89bf8bf5] succeeded in 0.46457253900007345s: True
+[2018-08-17 01:28:09,384: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:28:09,390: INFO/ForkPoolWorker-1] Task app.tasks.working[0df27c0d-8626-44e1-9622-0207b2752062] succeeded in 0.5565853799926117s: True
+[2018-08-17 01:28:09,394: WARNING/ForkPoolWorker-1] 任务[2][2018-08-17]加入队列
+[2018-08-17 01:28:09,405: WARNING/ForkPoolWorker-1] 任务[3][2018-08-17]加入队列
+[2018-08-17 01:28:09,409: WARNING/ForkPoolWorker-1] ---- Fire End ----
+[2018-08-17 01:28:09,412: INFO/ForkPoolWorker-1] Task app.tasks.firing[dbbc5f3f-46c0-4911-9306-dcea91e3f631] succeeded in 0.6205996549979318s: True
+[2018-08-17 01:28:13,751: INFO/MainProcess] Received task: app.tasks.working[529fd1c7-e8aa-42e4-ac0c-b21a0290caaa]  
+[2018-08-17 01:28:13,789: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:28:13,760: INFO/MainProcess] Received task: app.tasks.queueing[46cfb893-4bb3-4eb4-b69b-6f248fb9f93d]  
+[2018-08-17 01:28:13,794: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:28:13,795: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:28:13,818: INFO/ForkPoolWorker-1] Task app.tasks.working[529fd1c7-e8aa-42e4-ac0c-b21a0290caaa] succeeded in 0.02917649899609387s: True
+[2018-08-17 01:28:13,890: WARNING/ForkPoolWorker-1] 任务[2][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:28:13,901: WARNING/ForkPoolWorker-1] 任务[3][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:28:13,904: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:28:13,904: INFO/ForkPoolWorker-1] Task app.tasks.queueing[46cfb893-4bb3-4eb4-b69b-6f248fb9f93d] succeeded in 0.10955655299767386s: True
+[2018-08-17 01:28:18,750: INFO/MainProcess] Received task: app.tasks.working[f794307d-4c02-49d7-a57d-bc0f33ecf555]  
+[2018-08-17 01:28:18,755: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:28:18,769: INFO/MainProcess] Received task: app.tasks.queueing[455cf17b-15ec-43df-9840-0b169bc291fa]  
+[2018-08-17 01:28:18,801: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:28:18,807: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:28:18,812: INFO/ForkPoolWorker-1] Task app.tasks.queueing[455cf17b-15ec-43df-9840-0b169bc291fa] succeeded in 0.011291662012808956s: True
+[2018-08-17 01:28:18,833: WARNING/ForkPoolWorker-1] 任务[2][2018-08-17]满足条件,Running
+[2018-08-17 01:28:18,922: INFO/MainProcess] Received task: app.tasks.runjob[5843205f-e338-4428-8716-5bb64a1cd353]  
+[2018-08-17 01:28:18,960: WARNING/ForkPoolWorker-1] 任务[3][2018-08-17]满足条件,Running
+[2018-08-17 01:28:18,965: INFO/MainProcess] Received task: app.tasks.runjob[dbccba33-f1b7-4025-ad03-1fb63ea4f247]  
+[2018-08-17 01:28:18,966: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:28:18,967: INFO/ForkPoolWorker-1] Task app.tasks.working[f794307d-4c02-49d7-a57d-bc0f33ecf555] succeeded in 0.21201679699879605s: True
+/python3/lib/python3.6/site-packages/celery/platforms.py:796: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2018-08-17 01:28:19,141: WARNING/ForkPoolWorker-1] ----Start----
+[2018-08-17 01:28:19,142: WARNING/ForkPoolWorker-1] 任务编码:[2]
+[2018-08-17 01:28:19,142: WARNING/ForkPoolWorker-1] 任务名称:[第二层一作业]
+[2018-08-17 01:28:23,757: INFO/MainProcess] Received task: app.tasks.queueing[ce2c096d-be70-4ae4-88d1-c865d78a2c88]  
+[2018-08-17 01:28:23,761: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:28:23,767: INFO/MainProcess] Received task: app.tasks.working[1996809c-4b31-4fb3-8ab4-c50ce3227a0b]  
+[2018-08-17 01:28:23,793: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:28:23,805: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:28:23,810: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:28:23,813: INFO/ForkPoolWorker-1] Task app.tasks.queueing[ce2c096d-be70-4ae4-88d1-c865d78a2c88] succeeded in 0.051954427995951846s: True
+[2018-08-17 01:28:23,816: INFO/ForkPoolWorker-1] Task app.tasks.working[1996809c-4b31-4fb3-8ab4-c50ce3227a0b] succeeded in 0.023218399001052603s: True
+[2018-08-17 01:28:27,152: WARNING/ForkPoolWorker-1] 任务耗时:8秒
+[2018-08-17 01:28:27,228: WARNING/ForkPoolWorker-1] 任务[4][2018-08-17]加入队列
+[2018-08-17 01:28:27,246: WARNING/ForkPoolWorker-1] 任务[5][2018-08-17]加入队列
+[2018-08-17 01:28:27,261: WARNING/ForkPoolWorker-1] ----END----
+[2018-08-17 01:28:27,264: INFO/ForkPoolWorker-1] Task app.tasks.runjob[5843205f-e338-4428-8716-5bb64a1cd353] succeeded in 8.33544874600193s: True
+[2018-08-17 01:28:27,269: WARNING/ForkPoolWorker-1] ----Start----
+[2018-08-17 01:28:27,269: WARNING/ForkPoolWorker-1] 任务编码:[3]
+[2018-08-17 01:28:27,270: WARNING/ForkPoolWorker-1] 任务名称:[第二层二作业]
+[2018-08-17 01:28:28,758: INFO/MainProcess] Received task: app.tasks.queueing[1e6b5ea6-5f8a-4a09-9635-804cafe0d4b6]  
+[2018-08-17 01:28:28,763: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:28:28,773: INFO/MainProcess] Received task: app.tasks.working[9cc2d3e1-c1e2-4a39-a93d-bf1561d9745a]  
+[2018-08-17 01:28:28,799: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:28:28,810: WARNING/ForkPoolWorker-1] 任务[4][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:28:28,858: WARNING/ForkPoolWorker-1] 任务[5][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:28:28,861: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:28:28,861: INFO/ForkPoolWorker-1] Task app.tasks.queueing[1e6b5ea6-5f8a-4a09-9635-804cafe0d4b6] succeeded in 0.09867788299743552s: True
+[2018-08-17 01:28:28,881: WARNING/ForkPoolWorker-1] 任务[4][2018-08-17]满足条件,Running
+[2018-08-17 01:28:28,883: INFO/MainProcess] Received task: app.tasks.runjob[38cdc3a2-63ab-4ece-9714-c2ca11e7bf45]  
+[2018-08-17 01:28:28,883: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:28:28,885: INFO/ForkPoolWorker-1] Task app.tasks.working[9cc2d3e1-c1e2-4a39-a93d-bf1561d9745a] succeeded in 0.08599284700176213s: True
+[2018-08-17 01:28:33,767: INFO/MainProcess] Received task: app.tasks.working[f3dd5a95-e724-4b69-bc00-edb77aaf9ae3]  
+[2018-08-17 01:28:33,771: INFO/MainProcess] Received task: app.tasks.queueing[c1ee9e2e-2e1c-417f-a3e3-7a201ed807e3]  
+[2018-08-17 01:28:33,773: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:28:33,781: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:28:33,833: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:28:33,835: INFO/ForkPoolWorker-1] Task app.tasks.queueing[c1ee9e2e-2e1c-417f-a3e3-7a201ed807e3] succeeded in 0.055050781986210495s: True
+[2018-08-17 01:28:33,853: WARNING/ForkPoolWorker-1] 任务[5][2018-08-17]不满足条件,Waiting
+[2018-08-17 01:28:33,853: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:28:33,856: INFO/ForkPoolWorker-1] Task app.tasks.working[f3dd5a95-e724-4b69-bc00-edb77aaf9ae3] succeeded in 0.08288753099623136s: True
+[2018-08-17 01:28:36,280: WARNING/ForkPoolWorker-1] 任务耗时:9秒
+[2018-08-17 01:28:36,319: WARNING/ForkPoolWorker-1] 任务[7][2018-08-17]加入队列
+[2018-08-17 01:28:36,336: WARNING/ForkPoolWorker-1] 任务[8][2018-08-17]加入队列
+[2018-08-17 01:28:36,348: WARNING/ForkPoolWorker-1] ----END----
+[2018-08-17 01:28:36,349: INFO/ForkPoolWorker-1] Task app.tasks.runjob[dbccba33-f1b7-4025-ad03-1fb63ea4f247] succeeded in 9.082330958000966s: True
+[2018-08-17 01:28:36,353: WARNING/ForkPoolWorker-1] ----Start----
+[2018-08-17 01:28:36,354: WARNING/ForkPoolWorker-1] 任务编码:[4]
+[2018-08-17 01:28:36,354: WARNING/ForkPoolWorker-1] 任务名称:[第三层一作业]
+[2018-08-17 01:28:38,772: INFO/MainProcess] Received task: app.tasks.queueing[231f688d-bac1-46f9-9f3a-ede10b484d9d]  
+[2018-08-17 01:28:38,777: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:28:38,785: INFO/MainProcess] Received task: app.tasks.working[2723d696-bde2-4d4d-974e-f0ec7ebe94b9]  
+[2018-08-17 01:28:38,789: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:28:38,812: WARNING/ForkPoolWorker-1] 任务[7][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:28:38,838: WARNING/ForkPoolWorker-1] 任务[8][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:28:38,860: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:28:38,861: INFO/ForkPoolWorker-1] Task app.tasks.queueing[231f688d-bac1-46f9-9f3a-ede10b484d9d] succeeded in 0.08356644900050014s: True
+[2018-08-17 01:28:38,875: WARNING/ForkPoolWorker-1] 任务[5][2018-08-17]满足条件,Running
+[2018-08-17 01:28:38,876: INFO/MainProcess] Received task: app.tasks.runjob[74ff307b-cd32-49de-b065-fb267df7fdd6]  
+[2018-08-17 01:28:38,877: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:28:38,879: INFO/ForkPoolWorker-1] Task app.tasks.working[2723d696-bde2-4d4d-974e-f0ec7ebe94b9] succeeded in 0.08995639899512753s: True
+[2018-08-17 01:28:42,364: WARNING/ForkPoolWorker-1] 任务耗时:6秒
+[2018-08-17 01:28:42,433: WARNING/ForkPoolWorker-1] 任务[6][2018-08-17]加入队列
+[2018-08-17 01:28:42,447: WARNING/ForkPoolWorker-1] ----END----
+[2018-08-17 01:28:42,448: INFO/ForkPoolWorker-1] Task app.tasks.runjob[38cdc3a2-63ab-4ece-9714-c2ca11e7bf45] succeeded in 6.097897373008891s: True
+[2018-08-17 01:28:42,454: WARNING/ForkPoolWorker-1] ----Start----
+[2018-08-17 01:28:42,454: WARNING/ForkPoolWorker-1] 任务编码:[5]
+[2018-08-17 01:28:42,454: WARNING/ForkPoolWorker-1] 任务名称:[第三层二作业]
+[2018-08-17 01:28:43,779: INFO/MainProcess] Received task: app.tasks.working[562012de-6d20-4bd1-8daf-556f32acf646]  
+[2018-08-17 01:28:43,783: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:28:43,796: INFO/MainProcess] Received task: app.tasks.queueing[0de437be-0493-4685-a898-d65f58b49ed4]  
+[2018-08-17 01:28:43,798: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:28:43,832: WARNING/ForkPoolWorker-1] 任务[6][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:28:43,836: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:28:43,837: INFO/ForkPoolWorker-1] Task app.tasks.queueing[0de437be-0493-4685-a898-d65f58b49ed4] succeeded in 0.03841403799015097s: True
+[2018-08-17 01:28:43,847: WARNING/ForkPoolWorker-1] 任务[7][2018-08-17]不满足条件,Waiting
+[2018-08-17 01:28:43,872: WARNING/ForkPoolWorker-1] 任务[8][2018-08-17]不满足条件,Waiting
+[2018-08-17 01:28:43,872: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:28:43,873: INFO/ForkPoolWorker-1] Task app.tasks.working[562012de-6d20-4bd1-8daf-556f32acf646] succeeded in 0.0904013249964919s: True
+[2018-08-17 01:28:48,783: INFO/MainProcess] Received task: app.tasks.queueing[5c50c15a-1570-4ebd-997f-d054cece7035]  
+[2018-08-17 01:28:48,784: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:28:48,788: INFO/MainProcess] Received task: app.tasks.working[b45287a7-81e6-4f9c-8d8e-0dbc4a2f5eaf]  
+[2018-08-17 01:28:48,789: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:28:48,792: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:28:48,798: INFO/ForkPoolWorker-1] Task app.tasks.queueing[5c50c15a-1570-4ebd-997f-d054cece7035] succeeded in 0.013834661993314512s: True
+[2018-08-17 01:28:48,838: WARNING/ForkPoolWorker-1] 任务[6][2018-08-17]满足条件,Running
+[2018-08-17 01:28:48,840: INFO/MainProcess] Received task: app.tasks.runjob[33147425-7780-4e9e-ae0b-56422e554bb6]  
+[2018-08-17 01:28:48,863: WARNING/ForkPoolWorker-1] 任务[7][2018-08-17]不满足条件,Waiting
+[2018-08-17 01:28:48,891: WARNING/ForkPoolWorker-1] 任务[8][2018-08-17]不满足条件,Waiting
+[2018-08-17 01:28:48,891: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:28:48,892: INFO/ForkPoolWorker-1] Task app.tasks.working[b45287a7-81e6-4f9c-8d8e-0dbc4a2f5eaf] succeeded in 0.10320841599605046s: True
+[2018-08-17 01:28:52,467: WARNING/ForkPoolWorker-1] 任务耗时:10秒
+[2018-08-17 01:28:52,507: WARNING/ForkPoolWorker-1] ----END----
+[2018-08-17 01:28:52,508: INFO/ForkPoolWorker-1] Task app.tasks.runjob[74ff307b-cd32-49de-b065-fb267df7fdd6] succeeded in 10.058000394012197s: True
+[2018-08-17 01:28:52,520: WARNING/ForkPoolWorker-1] ----Start----
+[2018-08-17 01:28:52,520: WARNING/ForkPoolWorker-1] 任务编码:[6]
+[2018-08-17 01:28:52,521: WARNING/ForkPoolWorker-1] 任务名称:[第四层一作业]
+[2018-08-17 01:28:53,791: INFO/MainProcess] Received task: app.tasks.working[44f7b238-22dd-4835-9d38-3fce56a8fbf8]  
+[2018-08-17 01:28:53,796: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:28:53,804: INFO/MainProcess] Received task: app.tasks.queueing[6319c415-1eb1-4b11-a4ab-ed98f8d59e69]  
+[2018-08-17 01:28:53,810: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:28:53,820: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:28:53,826: INFO/ForkPoolWorker-1] Task app.tasks.queueing[6319c415-1eb1-4b11-a4ab-ed98f8d59e69] succeeded in 0.016216952994000167s: True
+[2018-08-17 01:28:53,863: WARNING/ForkPoolWorker-1] 任务[7][2018-08-17]满足条件,Running
+[2018-08-17 01:28:53,866: INFO/MainProcess] Received task: app.tasks.runjob[8d42f68a-5c95-4c36-b279-d9f638474d3b]  
+[2018-08-17 01:28:53,896: WARNING/ForkPoolWorker-1] 任务[8][2018-08-17]不满足条件,Waiting
+[2018-08-17 01:28:53,896: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:28:53,898: INFO/ForkPoolWorker-1] Task app.tasks.working[44f7b238-22dd-4835-9d38-3fce56a8fbf8] succeeded in 0.10235167099745013s: True
+[2018-08-17 01:28:58,531: WARNING/ForkPoolWorker-1] 任务耗时:6秒
+[2018-08-17 01:28:58,592: WARNING/ForkPoolWorker-1] ----END----
+[2018-08-17 01:28:58,593: INFO/ForkPoolWorker-1] Task app.tasks.runjob[33147425-7780-4e9e-ae0b-56422e554bb6] succeeded in 6.081081281998195s: True
+[2018-08-17 01:28:58,600: WARNING/ForkPoolWorker-1] ----Start----
+[2018-08-17 01:28:58,601: WARNING/ForkPoolWorker-1] 任务编码:[7]
+[2018-08-17 01:28:58,601: WARNING/ForkPoolWorker-1] 任务名称:[第四层二作业]
+[2018-08-17 01:28:58,798: INFO/MainProcess] Received task: app.tasks.queueing[bbeebc37-6625-48bb-a9ee-536dbfd362af]  
+[2018-08-17 01:28:58,801: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:28:58,811: INFO/MainProcess] Received task: app.tasks.working[a46a6671-41d3-4ddf-be7c-703b50a325fd]  
+[2018-08-17 01:28:58,812: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:28:58,818: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:28:58,825: INFO/ForkPoolWorker-1] Task app.tasks.queueing[bbeebc37-6625-48bb-a9ee-536dbfd362af] succeeded in 0.02397599699907005s: True
+[2018-08-17 01:28:58,864: WARNING/ForkPoolWorker-1] 任务[8][2018-08-17]不满足条件,Waiting
+[2018-08-17 01:28:58,865: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:28:58,867: INFO/ForkPoolWorker-1] Task app.tasks.working[a46a6671-41d3-4ddf-be7c-703b50a325fd] succeeded in 0.049128876999020576s: True
+[2018-08-17 01:29:03,804: INFO/MainProcess] Received task: app.tasks.working[45dd4684-c264-42a3-8c54-cb8ad01a3ab7]  
+[2018-08-17 01:29:03,807: INFO/MainProcess] Received task: app.tasks.queueing[fb26045b-75e7-49b0-8a7b-5bce2f68598a]  
+[2018-08-17 01:29:03,808: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:29:03,813: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:29:03,823: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:29:03,830: INFO/ForkPoolWorker-1] Task app.tasks.queueing[fb26045b-75e7-49b0-8a7b-5bce2f68598a] succeeded in 0.021734745998401195s: True
+[2018-08-17 01:29:03,856: WARNING/ForkPoolWorker-1] 任务[8][2018-08-17]不满足条件,Waiting
+[2018-08-17 01:29:03,856: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:29:03,857: INFO/ForkPoolWorker-1] Task app.tasks.working[45dd4684-c264-42a3-8c54-cb8ad01a3ab7] succeeded in 0.04418998600158375s: True
+[2018-08-17 01:29:08,604: WARNING/ForkPoolWorker-1] 任务耗时:10秒
+[2018-08-17 01:29:08,673: WARNING/ForkPoolWorker-1] ----END----
+[2018-08-17 01:29:08,674: INFO/ForkPoolWorker-1] Task app.tasks.runjob[8d42f68a-5c95-4c36-b279-d9f638474d3b] succeeded in 10.07835314499971s: True
+[2018-08-17 01:29:08,808: INFO/MainProcess] Received task: app.tasks.queueing[dba5c5ba-b293-4750-bfcd-0276682a4ff1]  
+[2018-08-17 01:29:08,812: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:29:08,821: INFO/MainProcess] Received task: app.tasks.working[8f2a4756-ee66-4352-b56f-cc44cc9cec64]  
+[2018-08-17 01:29:08,827: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:29:08,824: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:29:08,836: INFO/ForkPoolWorker-1] Task app.tasks.queueing[dba5c5ba-b293-4750-bfcd-0276682a4ff1] succeeded in 0.023518240006524138s: True
+[2018-08-17 01:29:08,901: WARNING/ForkPoolWorker-1] 任务[8][2018-08-17]满足条件,Running
+[2018-08-17 01:29:08,904: INFO/MainProcess] Received task: app.tasks.runjob[515c3fd3-04d0-43e9-8f2a-c61138ed7c07]  
+[2018-08-17 01:29:08,911: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:29:08,915: WARNING/ForkPoolWorker-1] ----Start----
+[2018-08-17 01:29:08,917: WARNING/ForkPoolWorker-1] 任务编码:[8]
+[2018-08-17 01:29:08,918: WARNING/ForkPoolWorker-1] 任务名称:[第五层一作业]
+[2018-08-17 01:29:08,919: INFO/ForkPoolWorker-1] Task app.tasks.working[8f2a4756-ee66-4352-b56f-cc44cc9cec64] succeeded in 0.09236593199602794s: True
+[2018-08-17 01:29:13,814: INFO/MainProcess] Received task: app.tasks.working[abca1ba2-b8dc-402d-885c-68b25af9a768]  
+[2018-08-17 01:29:13,817: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:29:13,825: INFO/MainProcess] Received task: app.tasks.queueing[dc830002-bf24-4215-8637-e891ddd001ae]  
+[2018-08-17 01:29:13,826: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:29:13,828: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:29:13,831: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:29:13,833: INFO/ForkPoolWorker-1] Task app.tasks.queueing[dc830002-bf24-4215-8637-e891ddd001ae] succeeded in 0.006513743006507866s: True
+[2018-08-17 01:29:13,834: INFO/ForkPoolWorker-1] Task app.tasks.working[abca1ba2-b8dc-402d-885c-68b25af9a768] succeeded in 0.01708111900370568s: True
+[2018-08-17 01:29:16,927: WARNING/ForkPoolWorker-1] 任务耗时:8秒
+[2018-08-17 01:29:16,983: WARNING/ForkPoolWorker-1] ----END----
+[2018-08-17 01:29:16,984: INFO/ForkPoolWorker-1] Task app.tasks.runjob[515c3fd3-04d0-43e9-8f2a-c61138ed7c07] succeeded in 8.072362639009953s: True
+[2018-08-17 01:29:18,827: INFO/MainProcess] Received task: app.tasks.queueing[52fb97ae-d232-4a1e-8e1b-f6cc8636e3b0]  
+[2018-08-17 01:29:18,836: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:29:18,833: INFO/MainProcess] Received task: app.tasks.working[6a5a3c69-3a40-47d9-92cd-a8a69f272969]  
+[2018-08-17 01:29:18,843: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:29:18,852: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:29:18,854: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:29:18,858: INFO/ForkPoolWorker-1] Task app.tasks.working[6a5a3c69-3a40-47d9-92cd-a8a69f272969] succeeded in 0.015229747994453646s: True
+[2018-08-17 01:29:18,861: INFO/ForkPoolWorker-1] Task app.tasks.queueing[52fb97ae-d232-4a1e-8e1b-f6cc8636e3b0] succeeded in 0.02518474000680726s: True
+[2018-08-17 01:29:23,833: INFO/MainProcess] Received task: app.tasks.working[d5a17e5a-e5e7-44e2-ad2d-a90a58a0bcac]  
+[2018-08-17 01:29:23,870: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:29:23,843: INFO/MainProcess] Received task: app.tasks.queueing[8f2e77f7-e21c-4385-8b7d-f6aa51409152]  
+[2018-08-17 01:29:23,873: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:29:23,877: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:29:23,878: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:29:23,879: INFO/ForkPoolWorker-1] Task app.tasks.queueing[8f2e77f7-e21c-4385-8b7d-f6aa51409152] succeeded in 0.0064043820020742714s: True
+[2018-08-17 01:29:23,881: INFO/ForkPoolWorker-1] Task app.tasks.working[d5a17e5a-e5e7-44e2-ad2d-a90a58a0bcac] succeeded in 0.010262431009323336s: True
+[2018-08-17 01:29:28,840: INFO/MainProcess] Received task: app.tasks.queueing[6f189300-7a3d-4362-a7dc-9b0d2220f7c1]  
+[2018-08-17 01:29:28,873: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:29:28,846: INFO/MainProcess] Received task: app.tasks.working[3233a24d-dc88-43ad-ba80-b595b4ffad65]  
+[2018-08-17 01:29:28,877: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:29:28,888: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:29:28,892: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:29:28,897: INFO/ForkPoolWorker-1] Task app.tasks.working[3233a24d-dc88-43ad-ba80-b595b4ffad65] succeeded in 0.020418675005203113s: True
+[2018-08-17 01:29:28,898: INFO/ForkPoolWorker-1] Task app.tasks.queueing[6f189300-7a3d-4362-a7dc-9b0d2220f7c1] succeeded in 0.02588868301245384s: True
+[2018-08-17 01:29:33,847: INFO/MainProcess] Received task: app.tasks.working[b9d819ff-11aa-4df7-be0d-d25cd71bb71b]  
+[2018-08-17 01:29:33,881: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:29:33,853: INFO/MainProcess] Received task: app.tasks.queueing[5e1d019e-dfb6-4a4c-9f74-b16be1529c12]  
+[2018-08-17 01:29:33,884: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:29:33,891: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:29:33,893: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:29:33,895: INFO/ForkPoolWorker-1] Task app.tasks.queueing[5e1d019e-dfb6-4a4c-9f74-b16be1529c12] succeeded in 0.01133860599657055s: True
+[2018-08-17 01:29:33,897: INFO/ForkPoolWorker-1] Task app.tasks.working[b9d819ff-11aa-4df7-be0d-d25cd71bb71b] succeeded in 0.016875086002983153s: True
+[2018-08-17 01:29:38,853: INFO/MainProcess] Received task: app.tasks.queueing[8aea8adc-48da-4bdf-9055-099a3fb6f30c]  
+[2018-08-17 01:29:38,860: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:29:38,863: INFO/MainProcess] Received task: app.tasks.working[de80c478-5ca9-479d-a9b6-ae68a9808579]  
+[2018-08-17 01:29:38,870: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:29:38,876: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:29:38,877: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:29:38,879: INFO/ForkPoolWorker-1] Task app.tasks.working[de80c478-5ca9-479d-a9b6-ae68a9808579] succeeded in 0.009327091000159271s: True
+[2018-08-17 01:29:38,880: INFO/ForkPoolWorker-1] Task app.tasks.queueing[8aea8adc-48da-4bdf-9055-099a3fb6f30c] succeeded in 0.01937373100372497s: True
+[2018-08-17 01:29:43,859: INFO/MainProcess] Received task: app.tasks.working[eb71fa29-8e87-4bab-8272-05e97f1e20dd]  
+[2018-08-17 01:29:43,863: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:29:43,872: INFO/MainProcess] Received task: app.tasks.queueing[d73c93d1-e53b-444e-bfe4-05b54337e6f9]  
+[2018-08-17 01:29:43,877: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:29:43,878: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:29:43,885: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:29:43,888: INFO/ForkPoolWorker-1] Task app.tasks.working[eb71fa29-8e87-4bab-8272-05e97f1e20dd] succeeded in 0.025424703999306075s: True
+[2018-08-17 01:29:43,890: INFO/ForkPoolWorker-1] Task app.tasks.queueing[d73c93d1-e53b-444e-bfe4-05b54337e6f9] succeeded in 0.01258511099149473s: True
+[2018-08-17 01:29:48,866: INFO/MainProcess] Received task: app.tasks.queueing[d461848d-9277-4c27-ac9a-5dfdfc784679]  
+[2018-08-17 01:29:48,870: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:29:48,879: INFO/MainProcess] Received task: app.tasks.working[d3d42776-3147-4a3b-ac18-6e3d25d34797]  
+[2018-08-17 01:29:48,882: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:29:48,883: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:29:48,893: INFO/ForkPoolWorker-1] Task app.tasks.queueing[d461848d-9277-4c27-ac9a-5dfdfc784679] succeeded in 0.023777123002219014s: True
+[2018-08-17 01:29:48,895: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:29:48,900: INFO/ForkPoolWorker-1] Task app.tasks.working[d3d42776-3147-4a3b-ac18-6e3d25d34797] succeeded in 0.017789805991924368s: True
+[2018-08-17 01:29:53,873: INFO/MainProcess] Received task: app.tasks.working[4920a373-4a73-4b4b-af67-169929236f3f]  
+[2018-08-17 01:29:53,880: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:29:53,888: INFO/MainProcess] Received task: app.tasks.queueing[b3207eb3-86de-41e3-92cf-335c799ad738]  
+[2018-08-17 01:29:53,891: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:29:53,898: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:29:53,902: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:29:53,905: INFO/ForkPoolWorker-1] Task app.tasks.queueing[b3207eb3-86de-41e3-92cf-335c799ad738] succeeded in 0.013891779002733529s: True
+[2018-08-17 01:29:53,908: INFO/ForkPoolWorker-1] Task app.tasks.working[4920a373-4a73-4b4b-af67-169929236f3f] succeeded in 0.028439049012376927s: True
+[2018-08-17 01:29:58,880: INFO/MainProcess] Received task: app.tasks.queueing[f12f3e21-835a-44a8-a801-f05def584630]  
+[2018-08-17 01:29:58,887: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:29:58,896: INFO/MainProcess] Received task: app.tasks.working[d0eae7c3-7d93-4182-8651-3a9fb1523e19]  
+[2018-08-17 01:29:58,899: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:29:58,908: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:29:58,913: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:29:58,914: INFO/ForkPoolWorker-1] Task app.tasks.queueing[f12f3e21-835a-44a8-a801-f05def584630] succeeded in 0.027769935011747293s: True
+[2018-08-17 01:29:58,917: INFO/ForkPoolWorker-1] Task app.tasks.working[d0eae7c3-7d93-4182-8651-3a9fb1523e19] succeeded in 0.01884431300277356s: True
+[2018-08-17 01:30:00,001: INFO/MainProcess] Received task: app.tasks.firing[cd2160db-3e5b-462b-a1c0-ee5aa3e9d5b0]  
+[2018-08-17 01:30:00,002: WARNING/ForkPoolWorker-1] ----Fire Start----
+[2018-08-17 01:30:00,015: WARNING/ForkPoolWorker-1] 任务[2][2018-08-17]加入队列
+[2018-08-17 01:30:00,024: WARNING/ForkPoolWorker-1] 任务[3][2018-08-17]加入队列
+[2018-08-17 01:30:00,027: WARNING/ForkPoolWorker-1] ---- Fire End ----
+[2018-08-17 01:30:00,028: INFO/ForkPoolWorker-1] Task app.tasks.firing[cd2160db-3e5b-462b-a1c0-ee5aa3e9d5b0] succeeded in 0.026035521004814655s: True
+[2018-08-17 01:30:03,886: INFO/MainProcess] Received task: app.tasks.working[6481e7cd-9500-48dd-b36c-15046ab0c220]  
+[2018-08-17 01:30:03,929: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:30:03,887: INFO/MainProcess] Received task: app.tasks.queueing[f6bced86-99af-4fd0-8c4d-7dc28f0c1440]  
+[2018-08-17 01:30:03,931: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:30:03,934: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:30:03,937: INFO/ForkPoolWorker-1] Task app.tasks.working[6481e7cd-9500-48dd-b36c-15046ab0c220] succeeded in 0.008826970995869488s: True
+[2018-08-17 01:30:03,944: WARNING/ForkPoolWorker-1] 任务[2][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:30:03,955: WARNING/ForkPoolWorker-1] 任务[3][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:30:03,958: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:30:03,958: INFO/ForkPoolWorker-1] Task app.tasks.queueing[f6bced86-99af-4fd0-8c4d-7dc28f0c1440] succeeded in 0.027200373995583504s: True
+[2018-08-17 01:30:08,890: INFO/MainProcess] Received task: app.tasks.queueing[d7faccc8-0aac-447c-aea6-d4cfdf33867d]  
+[2018-08-17 01:30:08,895: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:30:08,904: INFO/MainProcess] Received task: app.tasks.working[b3e383e8-311f-4d1f-88d9-64f22e2f7ee2]  
+[2018-08-17 01:30:08,905: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:30:08,913: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:30:08,917: INFO/ForkPoolWorker-1] Task app.tasks.queueing[d7faccc8-0aac-447c-aea6-d4cfdf33867d] succeeded in 0.02237227201112546s: True
+[2018-08-17 01:30:08,967: WARNING/ForkPoolWorker-1] 任务[2][2018-08-17]满足条件,Running
+[2018-08-17 01:30:08,970: INFO/MainProcess] Received task: app.tasks.runjob[bb7ccded-5e03-4cb5-a531-3b5a553dc081]  
+[2018-08-17 01:30:08,974: WARNING/ForkPoolWorker-1] ----Start----
+[2018-08-17 01:30:08,975: WARNING/ForkPoolWorker-1] 任务编码:[2]
+[2018-08-17 01:30:08,976: WARNING/ForkPoolWorker-1] 任务名称:[第二层一作业]
+[2018-08-17 01:30:09,006: WARNING/ForkPoolWorker-1] 任务[3][2018-08-17]满足条件,Running
+[2018-08-17 01:30:09,008: INFO/MainProcess] Received task: app.tasks.runjob[49c9ac4f-eb28-4f5f-8449-35be067b9ce3]  
+[2018-08-17 01:30:09,008: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:30:09,009: INFO/ForkPoolWorker-1] Task app.tasks.working[b3e383e8-311f-4d1f-88d9-64f22e2f7ee2] succeeded in 0.10430941000231542s: True
+[2018-08-17 01:30:13,896: INFO/MainProcess] Received task: app.tasks.working[820bfbe7-309c-40dd-bbcc-4c58752855f0]  
+[2018-08-17 01:30:13,902: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:30:13,911: INFO/MainProcess] Received task: app.tasks.queueing[43c56753-e362-4900-9420-abfacbf0997a]  
+[2018-08-17 01:30:13,912: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:30:13,917: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:30:13,920: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:30:13,922: INFO/ForkPoolWorker-1] Task app.tasks.queueing[43c56753-e362-4900-9420-abfacbf0997a] succeeded in 0.00966929699643515s: True
+[2018-08-17 01:30:13,925: INFO/ForkPoolWorker-1] Task app.tasks.working[820bfbe7-309c-40dd-bbcc-4c58752855f0] succeeded in 0.0231223839946324s: True
+[2018-08-17 01:30:14,986: WARNING/ForkPoolWorker-1] 任务耗时:6秒
+[2018-08-17 01:30:15,017: WARNING/ForkPoolWorker-1] 任务[4][2018-08-17]加入队列
+[2018-08-17 01:30:15,035: WARNING/ForkPoolWorker-1] 任务[5][2018-08-17]加入队列
+[2018-08-17 01:30:15,046: WARNING/ForkPoolWorker-1] ----END----
+[2018-08-17 01:30:15,049: INFO/ForkPoolWorker-1] Task app.tasks.runjob[bb7ccded-5e03-4cb5-a531-3b5a553dc081] succeeded in 6.078102749990649s: True
+[2018-08-17 01:30:15,054: WARNING/ForkPoolWorker-1] ----Start----
+[2018-08-17 01:30:15,055: WARNING/ForkPoolWorker-1] 任务编码:[3]
+[2018-08-17 01:30:15,055: WARNING/ForkPoolWorker-1] 任务名称:[第二层二作业]
+[2018-08-17 01:30:18,902: INFO/MainProcess] Received task: app.tasks.queueing[dfb20a0e-0d20-4458-938c-39b04411c0ce]  
+[2018-08-17 01:30:18,912: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:30:18,908: INFO/MainProcess] Received task: app.tasks.working[a1078a4f-7368-4461-b12b-23be77436fcf]  
+[2018-08-17 01:30:18,926: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:30:18,931: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:30:18,937: INFO/ForkPoolWorker-1] Task app.tasks.working[a1078a4f-7368-4461-b12b-23be77436fcf] succeeded in 0.01075482000305783s: True
+[2018-08-17 01:30:18,951: WARNING/ForkPoolWorker-1] 任务[4][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:30:18,961: WARNING/ForkPoolWorker-1] 任务[5][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:30:18,965: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:30:18,966: INFO/ForkPoolWorker-1] Task app.tasks.queueing[dfb20a0e-0d20-4458-938c-39b04411c0ce] succeeded in 0.05386634400929324s: True
+[2018-08-17 01:30:21,062: WARNING/ForkPoolWorker-1] 任务耗时:6秒
+[2018-08-17 01:30:21,105: WARNING/ForkPoolWorker-1] 任务[7][2018-08-17]加入队列
+[2018-08-17 01:30:21,122: WARNING/ForkPoolWorker-1] 任务[8][2018-08-17]加入队列
+[2018-08-17 01:30:21,135: WARNING/ForkPoolWorker-1] ----END----
+[2018-08-17 01:30:21,136: INFO/ForkPoolWorker-1] Task app.tasks.runjob[49c9ac4f-eb28-4f5f-8449-35be067b9ce3] succeeded in 6.084980789004476s: True
+[2018-08-17 01:30:23,908: INFO/MainProcess] Received task: app.tasks.working[1d4aeb0d-5953-4cc3-8eea-01f94e1a8163]  
+[2018-08-17 01:30:23,915: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:30:23,924: INFO/MainProcess] Received task: app.tasks.queueing[24a3ea97-beff-4695-80c6-05760ed963aa]  
+[2018-08-17 01:30:23,927: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:30:23,970: WARNING/ForkPoolWorker-1] 任务[7][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:30:23,993: WARNING/ForkPoolWorker-1] 任务[8][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:30:23,998: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:30:23,999: INFO/ForkPoolWorker-1] Task app.tasks.queueing[24a3ea97-beff-4695-80c6-05760ed963aa] succeeded in 0.07244552500196733s: True
+[2018-08-17 01:30:24,005: WARNING/ForkPoolWorker-1] 任务[4][2018-08-17]满足条件,Running
+[2018-08-17 01:30:24,007: INFO/MainProcess] Received task: app.tasks.runjob[afcb0c01-c648-41f8-b5a8-1a01353cdd91]  
+[2018-08-17 01:30:24,010: WARNING/ForkPoolWorker-1] ----Start----
+[2018-08-17 01:30:24,013: WARNING/ForkPoolWorker-1] 任务编码:[4]
+[2018-08-17 01:30:24,013: WARNING/ForkPoolWorker-1] 任务名称:[第三层一作业]
+[2018-08-17 01:30:24,048: WARNING/ForkPoolWorker-1] 任务[5][2018-08-17]满足条件,Running
+[2018-08-17 01:30:24,050: INFO/MainProcess] Received task: app.tasks.runjob[44d4e3d7-72ba-4c13-9b69-a54c268be32f]  
+[2018-08-17 01:30:24,050: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:30:24,052: INFO/ForkPoolWorker-1] Task app.tasks.working[1d4aeb0d-5953-4cc3-8eea-01f94e1a8163] succeeded in 0.13689339099801145s: True
+[2018-08-17 01:30:28,939: INFO/MainProcess] Received task: app.tasks.queueing[b942ab8b-8cd0-4c7b-a9c2-bf4f63af0f1b]  
+[2018-08-17 01:30:28,941: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:30:28,955: INFO/MainProcess] Received task: app.tasks.working[880a824c-3960-4b03-b704-865df3e43027]  
+[2018-08-17 01:30:28,957: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:30:28,968: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:30:28,976: INFO/ForkPoolWorker-1] Task app.tasks.queueing[b942ab8b-8cd0-4c7b-a9c2-bf4f63af0f1b] succeeded in 0.03552522699465044s: True
+[2018-08-17 01:30:29,003: WARNING/ForkPoolWorker-1] 任务[7][2018-08-17]不满足条件,Waiting
+[2018-08-17 01:30:29,022: WARNING/ForkPoolWorker-1] 任务[8][2018-08-17]不满足条件,Waiting
+[2018-08-17 01:30:29,023: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:30:29,024: INFO/ForkPoolWorker-1] Task app.tasks.working[880a824c-3960-4b03-b704-865df3e43027] succeeded in 0.06716263100679498s: True
+[2018-08-17 01:30:33,952: INFO/MainProcess] Received task: app.tasks.working[df558641-d1c2-4f8b-a697-af622668cc7f]  
+[2018-08-17 01:30:33,953: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:30:33,956: INFO/MainProcess] Received task: app.tasks.queueing[65911715-7e30-43c9-81a7-97783c35ddb2]  
+[2018-08-17 01:30:33,958: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:30:33,963: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:30:33,965: INFO/ForkPoolWorker-1] Task app.tasks.queueing[65911715-7e30-43c9-81a7-97783c35ddb2] succeeded in 0.007057795999571681s: True
+[2018-08-17 01:30:33,981: WARNING/ForkPoolWorker-1] 任务[7][2018-08-17]不满足条件,Waiting
+[2018-08-17 01:30:34,002: WARNING/ForkPoolWorker-1] 任务[8][2018-08-17]不满足条件,Waiting
+[2018-08-17 01:30:34,002: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:30:34,003: INFO/ForkPoolWorker-1] Task app.tasks.working[df558641-d1c2-4f8b-a697-af622668cc7f] succeeded in 0.05006992600101512s: True
+[2018-08-17 01:30:34,024: WARNING/ForkPoolWorker-1] 任务耗时:10秒
+[2018-08-17 01:30:34,034: WARNING/ForkPoolWorker-1] 任务[6][2018-08-17]加入队列
+[2018-08-17 01:30:34,062: WARNING/ForkPoolWorker-1] ----END----
+[2018-08-17 01:30:34,063: INFO/ForkPoolWorker-1] Task app.tasks.runjob[afcb0c01-c648-41f8-b5a8-1a01353cdd91] succeeded in 10.055891926007462s: True
+[2018-08-17 01:30:34,067: WARNING/ForkPoolWorker-1] ----Start----
+[2018-08-17 01:30:34,067: WARNING/ForkPoolWorker-1] 任务编码:[5]
+[2018-08-17 01:30:34,067: WARNING/ForkPoolWorker-1] 任务名称:[第三层二作业]
+[2018-08-17 01:30:38,960: INFO/MainProcess] Received task: app.tasks.queueing[1b2a9255-6872-460e-8217-b4cd0767304c]  
+[2018-08-17 01:30:38,999: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:30:38,967: INFO/MainProcess] Received task: app.tasks.working[d3c09190-3563-43d2-bb8f-e18fc93961e2]  
+[2018-08-17 01:30:39,008: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:30:39,047: WARNING/ForkPoolWorker-1] 任务[6][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:30:39,063: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:30:39,064: INFO/ForkPoolWorker-1] Task app.tasks.queueing[1b2a9255-6872-460e-8217-b4cd0767304c] succeeded in 0.065142896011821s: True
+[2018-08-17 01:30:39,072: WARNING/ForkPoolWorker-1] 任务耗时:5秒
+[2018-08-17 01:30:39,088: WARNING/ForkPoolWorker-1] 任务[7][2018-08-17]不满足条件,Waiting
+[2018-08-17 01:30:39,120: WARNING/ForkPoolWorker-1] ----END----
+[2018-08-17 01:30:39,121: INFO/ForkPoolWorker-1] Task app.tasks.runjob[44d4e3d7-72ba-4c13-9b69-a54c268be32f] succeeded in 5.0555413700058125s: True
+[2018-08-17 01:30:39,133: WARNING/ForkPoolWorker-1] 任务[8][2018-08-17]不满足条件,Waiting
+[2018-08-17 01:30:39,133: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:30:39,135: INFO/ForkPoolWorker-1] Task app.tasks.working[d3c09190-3563-43d2-bb8f-e18fc93961e2] succeeded in 0.12776783099980094s: True
+[2018-08-17 01:30:43,965: INFO/MainProcess] Received task: app.tasks.working[f8e65060-c9c3-4547-8943-a188479a0c08]  
+[2018-08-17 01:30:43,967: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:30:43,971: INFO/MainProcess] Received task: app.tasks.queueing[1fba5b20-5163-4ac0-af71-c51a8c1dbe08]  
+[2018-08-17 01:30:43,976: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:30:43,984: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:30:43,986: INFO/ForkPoolWorker-1] Task app.tasks.queueing[1fba5b20-5163-4ac0-af71-c51a8c1dbe08] succeeded in 0.009787043993128464s: True
+[2018-08-17 01:30:44,017: WARNING/ForkPoolWorker-1] 任务[6][2018-08-17]满足条件,Running
+[2018-08-17 01:30:44,019: INFO/MainProcess] Received task: app.tasks.runjob[e52609c3-e72e-403a-86bd-acad5fb8e271]  
+[2018-08-17 01:30:44,022: WARNING/ForkPoolWorker-1] ----Start----
+[2018-08-17 01:30:44,022: WARNING/ForkPoolWorker-1] 任务编码:[6]
+[2018-08-17 01:30:44,022: WARNING/ForkPoolWorker-1] 任务名称:[第四层一作业]
+[2018-08-17 01:30:44,051: WARNING/ForkPoolWorker-1] 任务[7][2018-08-17]满足条件,Running
+[2018-08-17 01:30:44,053: INFO/MainProcess] Received task: app.tasks.runjob[e2c9417a-edaf-43f4-8c16-31b4ed9c82d1]  
+[2018-08-17 01:30:44,074: WARNING/ForkPoolWorker-1] 任务[8][2018-08-17]不满足条件,Waiting
+[2018-08-17 01:30:44,074: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:30:44,076: INFO/ForkPoolWorker-1] Task app.tasks.working[f8e65060-c9c3-4547-8943-a188479a0c08] succeeded in 0.10961956699611619s: True
+[2018-08-17 01:30:48,974: INFO/MainProcess] Received task: app.tasks.queueing[94892c49-4880-4b91-89e8-94766632e505]  
+[2018-08-17 01:30:49,010: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:30:48,980: INFO/MainProcess] Received task: app.tasks.working[b7130a94-2175-43ca-b92d-4e605e68ab59]  
+[2018-08-17 01:30:49,012: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:30:49,020: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:30:49,022: INFO/ForkPoolWorker-1] Task app.tasks.queueing[94892c49-4880-4b91-89e8-94766632e505] succeeded in 0.011863713996717706s: True
+[2018-08-17 01:30:49,036: WARNING/ForkPoolWorker-1] 任务[8][2018-08-17]不满足条件,Waiting
+[2018-08-17 01:30:49,036: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:30:49,038: INFO/ForkPoolWorker-1] Task app.tasks.working[b7130a94-2175-43ca-b92d-4e605e68ab59] succeeded in 0.025231899009668268s: True
+[2018-08-17 01:30:53,032: WARNING/ForkPoolWorker-1] 任务耗时:9秒
+[2018-08-17 01:30:53,049: WARNING/ForkPoolWorker-1] ----END----
+[2018-08-17 01:30:53,050: INFO/ForkPoolWorker-1] Task app.tasks.runjob[e52609c3-e72e-403a-86bd-acad5fb8e271] succeeded in 9.030637051997473s: True
+[2018-08-17 01:30:53,054: WARNING/ForkPoolWorker-1] ----Start----
+[2018-08-17 01:30:53,055: WARNING/ForkPoolWorker-1] 任务编码:[7]
+[2018-08-17 01:30:53,055: WARNING/ForkPoolWorker-1] 任务名称:[第四层二作业]
+[2018-08-17 01:30:53,977: INFO/MainProcess] Received task: app.tasks.working[a04f3c27-2ab0-4bb6-9fd3-17f41f2712ca]  
+[2018-08-17 01:30:53,978: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:30:53,981: INFO/MainProcess] Received task: app.tasks.queueing[173bef7c-cb77-4c2a-aebc-3e6f44b69ada]  
+[2018-08-17 01:30:53,982: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:30:53,985: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:30:53,989: INFO/ForkPoolWorker-1] Task app.tasks.queueing[173bef7c-cb77-4c2a-aebc-3e6f44b69ada] succeeded in 0.0065792959940154105s: True
+[2018-08-17 01:30:54,006: WARNING/ForkPoolWorker-1] 任务[8][2018-08-17]不满足条件,Waiting
+[2018-08-17 01:30:54,006: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:30:54,007: INFO/ForkPoolWorker-1] Task app.tasks.working[a04f3c27-2ab0-4bb6-9fd3-17f41f2712ca] succeeded in 0.02926584001397714s: True
+[2018-08-17 01:30:58,061: WARNING/ForkPoolWorker-1] 任务耗时:5秒
+[2018-08-17 01:30:58,077: WARNING/ForkPoolWorker-1] ----END----
+[2018-08-17 01:30:58,078: INFO/ForkPoolWorker-1] Task app.tasks.runjob[e2c9417a-edaf-43f4-8c16-31b4ed9c82d1] succeeded in 5.025798691000091s: True
+[2018-08-17 01:30:58,983: INFO/MainProcess] Received task: app.tasks.queueing[253bd8b6-ac31-4757-a89e-3c1c7114dd23]  
+[2018-08-17 01:30:58,989: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:30:58,997: INFO/MainProcess] Received task: app.tasks.working[e77514f6-cd27-4349-8c5e-e95a93814c59]  
+[2018-08-17 01:30:59,001: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:30:59,009: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:30:59,011: INFO/ForkPoolWorker-1] Task app.tasks.queueing[253bd8b6-ac31-4757-a89e-3c1c7114dd23] succeeded in 0.02264989700051956s: True
+[2018-08-17 01:30:59,050: WARNING/ForkPoolWorker-1] 任务[8][2018-08-17]满足条件,Running
+[2018-08-17 01:30:59,053: INFO/MainProcess] Received task: app.tasks.runjob[4aeae13d-e817-46c5-af82-1e0c27e83cb8]  
+[2018-08-17 01:30:59,056: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:30:59,057: WARNING/ForkPoolWorker-1] ----Start----
+[2018-08-17 01:30:59,057: WARNING/ForkPoolWorker-1] 任务编码:[8]
+[2018-08-17 01:30:59,057: WARNING/ForkPoolWorker-1] 任务名称:[第五层一作业]
+[2018-08-17 01:30:59,059: INFO/ForkPoolWorker-1] Task app.tasks.working[e77514f6-cd27-4349-8c5e-e95a93814c59] succeeded in 0.05899989200406708s: True
+[2018-08-17 01:31:03,983: INFO/MainProcess] Received task: app.tasks.queueing[a3f3c284-1aa3-4073-b89d-be695f3d8292]  
+[2018-08-17 01:31:03,987: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:31:03,993: INFO/MainProcess] Received task: app.tasks.working[3dfba5d5-964a-45ef-842f-9a353350d8f0]  
+[2018-08-17 01:31:03,995: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:31:03,999: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:31:04,002: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:31:04,006: INFO/ForkPoolWorker-1] Task app.tasks.queueing[a3f3c284-1aa3-4073-b89d-be695f3d8292] succeeded in 0.019060910999542102s: True
+[2018-08-17 01:31:04,008: INFO/ForkPoolWorker-1] Task app.tasks.working[3dfba5d5-964a-45ef-842f-9a353350d8f0] succeeded in 0.013194814993767068s: True
+[2018-08-17 01:31:08,992: INFO/MainProcess] Received task: app.tasks.queueing[701b225f-3cb2-4371-bcbc-7953846740d2]  
+[2018-08-17 01:31:08,999: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:31:09,009: INFO/MainProcess] Received task: app.tasks.working[9657bf51-cdb5-4e60-a368-107137190557]  
+[2018-08-17 01:31:09,018: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:31:09,027: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:31:09,030: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:31:09,035: INFO/ForkPoolWorker-1] Task app.tasks.queueing[701b225f-3cb2-4371-bcbc-7953846740d2] succeeded in 0.0359424819907872s: True
+[2018-08-17 01:31:09,039: INFO/ForkPoolWorker-1] Task app.tasks.working[9657bf51-cdb5-4e60-a368-107137190557] succeeded in 0.02100327701191418s: True
+[2018-08-17 01:31:09,068: WARNING/ForkPoolWorker-1] 任务耗时:10秒
+[2018-08-17 01:31:09,088: WARNING/ForkPoolWorker-1] ----END----
+[2018-08-17 01:31:09,089: INFO/ForkPoolWorker-1] Task app.tasks.runjob[4aeae13d-e817-46c5-af82-1e0c27e83cb8] succeeded in 10.035420123997028s: True
+celery beat v4.2.1 (windowlicker) is starting.
+__    -    ... __   -        _
+LocalTime -> 2018-08-17 01:28:08
+Configuration ->
+    . broker -> redis://:**@192.168.134.151:6379/0
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> celery.beat.PersistentScheduler
+    . db -> celerybeat-schedule
+    . logfile -> [stderr]@%WARNING
+    . maxinterval -> 5.00 minutes (300s)
+[2018-08-17 01:32:03,830: INFO/MainProcess] Received task: app.tasks.firing[37e84576-3745-46b0-99e1-0ef2da1cfde0]  
+[2018-08-17 01:32:03,831: WARNING/ForkPoolWorker-1] ----Fire Start----
+[2018-08-17 01:32:03,840: INFO/MainProcess] Received task: app.tasks.queueing[4e9a06d9-f1ae-4746-ab96-a02ae489ab9e]  
+[2018-08-17 01:32:03,840: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:32:03,845: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:32:03,847: INFO/ForkPoolWorker-1] Task app.tasks.queueing[4e9a06d9-f1ae-4746-ab96-a02ae489ab9e] succeeded in 0.006631370997638442s: True
+[2018-08-17 01:32:03,849: INFO/MainProcess] Received task: app.tasks.working[360089c3-67f9-4bf3-86cd-c78124cb5608]  
+[2018-08-17 01:32:03,849: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:32:03,852: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:32:03,854: INFO/ForkPoolWorker-1] Task app.tasks.working[360089c3-67f9-4bf3-86cd-c78124cb5608] succeeded in 0.0049544200010132045s: True
+[2018-08-17 01:32:03,857: WARNING/ForkPoolWorker-1] 任务[2][2018-08-17]加入队列
+[2018-08-17 01:32:03,866: WARNING/ForkPoolWorker-1] 任务[3][2018-08-17]加入队列
+[2018-08-17 01:32:03,869: WARNING/ForkPoolWorker-1] ---- Fire End ----
+[2018-08-17 01:32:03,870: INFO/ForkPoolWorker-1] Task app.tasks.firing[37e84576-3745-46b0-99e1-0ef2da1cfde0] succeeded in 0.039771642987034284s: True
+[2018-08-17 01:32:23,860: INFO/MainProcess] Received task: app.tasks.working[fbed0cd2-5f66-4bb4-98e4-1db3c7d5c6d3]  
+[2018-08-17 01:32:23,867: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:32:23,878: INFO/MainProcess] Received task: app.tasks.queueing[b3b8ca14-27d2-40b8-82b7-5572e14e1086]  
+[2018-08-17 01:32:23,888: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:32:23,906: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:32:23,912: INFO/ForkPoolWorker-1] Task app.tasks.working[fbed0cd2-5f66-4bb4-98e4-1db3c7d5c6d3] succeeded in 0.04456466800183989s: True
+[2018-08-17 01:32:23,926: WARNING/ForkPoolWorker-1] 任务[2][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:32:23,944: WARNING/ForkPoolWorker-1] 任务[3][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:32:23,946: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:32:23,947: INFO/ForkPoolWorker-1] Task app.tasks.queueing[b3b8ca14-27d2-40b8-82b7-5572e14e1086] succeeded in 0.059894731995882466s: True
+[2018-08-17 01:32:43,857: INFO/MainProcess] Received task: app.tasks.working[f6fe1e52-0281-4719-a639-a75ffe98fdd1]  
+[2018-08-17 01:32:43,858: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:32:43,866: INFO/MainProcess] Received task: app.tasks.queueing[fc526d02-f518-42de-9d45-e0529b3a2d80]  
+[2018-08-17 01:32:43,867: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:32:43,870: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:32:43,873: INFO/ForkPoolWorker-1] Task app.tasks.queueing[fc526d02-f518-42de-9d45-e0529b3a2d80] succeeded in 0.005778656006441452s: True
+[2018-08-17 01:32:43,938: WARNING/ForkPoolWorker-1] 任务[2][2018-08-17]满足条件,Running
+[2018-08-17 01:32:43,940: INFO/MainProcess] Received task: app.tasks.runjob[f63c50dc-44b6-48c9-9bbc-b6f4507f0df3]  
+[2018-08-17 01:32:43,944: WARNING/ForkPoolWorker-1] ----Start----
+[2018-08-17 01:32:43,944: WARNING/ForkPoolWorker-1] 任务编码:[2]
+[2018-08-17 01:32:43,944: WARNING/ForkPoolWorker-1] 任务名称:[第二层一作业]
+[2018-08-17 01:32:43,970: WARNING/ForkPoolWorker-1] 任务[3][2018-08-17]满足条件,Running
+[2018-08-17 01:32:43,973: INFO/MainProcess] Received task: app.tasks.runjob[25e08c44-c300-4256-aa70-1862a61d228e]  
+[2018-08-17 01:32:43,973: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:32:43,975: INFO/ForkPoolWorker-1] Task app.tasks.working[f6fe1e52-0281-4719-a639-a75ffe98fdd1] succeeded in 0.11715550000371877s: True
+[2018-08-17 01:32:52,955: WARNING/ForkPoolWorker-1] 任务耗时:9秒
+[2018-08-17 01:32:52,983: WARNING/ForkPoolWorker-1] 任务[4][2018-08-17]加入队列
+[2018-08-17 01:32:53,002: WARNING/ForkPoolWorker-1] 任务[5][2018-08-17]加入队列
+[2018-08-17 01:32:53,021: WARNING/ForkPoolWorker-1] ----END----
+[2018-08-17 01:32:53,022: INFO/ForkPoolWorker-1] Task app.tasks.runjob[f63c50dc-44b6-48c9-9bbc-b6f4507f0df3] succeeded in 9.080884117996902s: True
+[2018-08-17 01:32:53,026: WARNING/ForkPoolWorker-1] ----Start----
+[2018-08-17 01:32:53,026: WARNING/ForkPoolWorker-1] 任务编码:[3]
+[2018-08-17 01:32:53,026: WARNING/ForkPoolWorker-1] 任务名称:[第二层二作业]
+[2018-08-17 01:33:02,036: WARNING/ForkPoolWorker-1] 任务耗时:9秒
+[2018-08-17 01:33:02,088: WARNING/ForkPoolWorker-1] 任务[7][2018-08-17]加入队列
+[2018-08-17 01:33:02,099: WARNING/ForkPoolWorker-1] 任务[8][2018-08-17]加入队列
+[2018-08-17 01:33:02,109: WARNING/ForkPoolWorker-1] ----END----
+[2018-08-17 01:33:02,110: INFO/ForkPoolWorker-1] Task app.tasks.runjob[25e08c44-c300-4256-aa70-1862a61d228e] succeeded in 9.086914650994004s: True
+[2018-08-17 01:33:03,878: INFO/MainProcess] Received task: app.tasks.working[128dd52b-a650-4331-8eec-098b6381b96d]  
+[2018-08-17 01:33:03,880: INFO/MainProcess] Received task: app.tasks.queueing[71ba6f11-ed29-467c-8733-b035107614f8]  
+[2018-08-17 01:33:03,880: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:33:03,884: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:33:03,886: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:33:03,890: INFO/ForkPoolWorker-1] Task app.tasks.working[128dd52b-a650-4331-8eec-098b6381b96d] succeeded in 0.009776118997251615s: True
+[2018-08-17 01:33:03,898: WARNING/ForkPoolWorker-1] 任务[4][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:33:03,912: WARNING/ForkPoolWorker-1] 任务[5][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:33:03,924: WARNING/ForkPoolWorker-1] 任务[7][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:33:03,934: WARNING/ForkPoolWorker-1] 任务[8][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:33:03,937: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:33:03,939: INFO/ForkPoolWorker-1] Task app.tasks.queueing[71ba6f11-ed29-467c-8733-b035107614f8] succeeded in 0.052842764009255916s: True
+[2018-08-17 01:33:23,898: INFO/MainProcess] Received task: app.tasks.queueing[6624f409-0c29-4945-912d-d2bba63da72b]  
+[2018-08-17 01:33:23,909: INFO/MainProcess] Received task: app.tasks.working[89c7be52-c1fc-481f-b599-ef47c84f6129]  
+[2018-08-17 01:33:23,910: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:33:23,914: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:33:23,916: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:33:23,924: INFO/ForkPoolWorker-1] Task app.tasks.queueing[6624f409-0c29-4945-912d-d2bba63da72b] succeeded in 0.01454929199826438s: True
+[2018-08-17 01:33:23,972: WARNING/ForkPoolWorker-1] 任务[4][2018-08-17]满足条件,Running
+[2018-08-17 01:33:23,974: INFO/MainProcess] Received task: app.tasks.runjob[b2396d13-98cc-4c91-a643-c5f9113ce454]  
+[2018-08-17 01:33:23,978: WARNING/ForkPoolWorker-1] ----Start----
+[2018-08-17 01:33:23,978: WARNING/ForkPoolWorker-1] 任务编码:[4]
+[2018-08-17 01:33:23,978: WARNING/ForkPoolWorker-1] 任务名称:[第三层一作业]
+[2018-08-17 01:33:24,006: WARNING/ForkPoolWorker-1] 任务[5][2018-08-17]满足条件,Running
+[2018-08-17 01:33:24,008: INFO/MainProcess] Received task: app.tasks.runjob[bdc85293-8333-4277-98be-36b474378c84]  
+[2018-08-17 01:33:24,030: WARNING/ForkPoolWorker-1] 任务[7][2018-08-17]不满足条件,Waiting
+[2018-08-17 01:33:24,053: WARNING/ForkPoolWorker-1] 任务[8][2018-08-17]不满足条件,Waiting
+[2018-08-17 01:33:24,053: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:33:24,054: INFO/ForkPoolWorker-1] Task app.tasks.working[89c7be52-c1fc-481f-b599-ef47c84f6129] succeeded in 0.13890413199260365s: True
+[2018-08-17 01:33:29,985: WARNING/ForkPoolWorker-1] 任务耗时:6秒
+[2018-08-17 01:33:30,021: WARNING/ForkPoolWorker-1] 任务[6][2018-08-17]加入队列
+[2018-08-17 01:33:30,042: WARNING/ForkPoolWorker-1] ----END----
+[2018-08-17 01:33:30,043: INFO/ForkPoolWorker-1] Task app.tasks.runjob[b2396d13-98cc-4c91-a643-c5f9113ce454] succeeded in 6.068196123000234s: True
+[2018-08-17 01:33:30,049: WARNING/ForkPoolWorker-1] ----Start----
+[2018-08-17 01:33:30,050: WARNING/ForkPoolWorker-1] 任务编码:[5]
+[2018-08-17 01:33:30,050: WARNING/ForkPoolWorker-1] 任务名称:[第三层二作业]
+[2018-08-17 01:33:36,056: WARNING/ForkPoolWorker-1] 任务耗时:6秒
+[2018-08-17 01:33:36,093: WARNING/ForkPoolWorker-1] ----END----
+[2018-08-17 01:33:36,095: INFO/ForkPoolWorker-1] Task app.tasks.runjob[bdc85293-8333-4277-98be-36b474378c84] succeeded in 6.049546327005373s: True
+[2018-08-17 01:33:43,927: INFO/MainProcess] Received task: app.tasks.working[2f67bb18-c1de-4b11-bf1e-5a0223d08015]  
+[2018-08-17 01:33:43,929: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:33:43,934: INFO/MainProcess] Received task: app.tasks.queueing[a0241109-d7e2-4c8a-b628-3df9a7505215]  
+[2018-08-17 01:33:43,936: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:33:43,957: WARNING/ForkPoolWorker-1] 任务[6][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:33:43,962: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:33:43,963: INFO/ForkPoolWorker-1] Task app.tasks.queueing[a0241109-d7e2-4c8a-b628-3df9a7505215] succeeded in 0.02738323599623982s: True
+[2018-08-17 01:33:43,983: WARNING/ForkPoolWorker-1] 任务[7][2018-08-17]满足条件,Running
+[2018-08-17 01:33:43,986: INFO/MainProcess] Received task: app.tasks.runjob[db5785bb-eeae-4a23-b91e-bef20b4b2b12]  
+[2018-08-17 01:33:43,989: WARNING/ForkPoolWorker-1] ----Start----
+[2018-08-17 01:33:43,990: WARNING/ForkPoolWorker-1] 任务编码:[7]
+[2018-08-17 01:33:43,990: WARNING/ForkPoolWorker-1] 任务名称:[第四层二作业]
+[2018-08-17 01:33:44,010: WARNING/ForkPoolWorker-1] 任务[8][2018-08-17]不满足条件,Waiting
+[2018-08-17 01:33:44,010: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:33:44,013: INFO/ForkPoolWorker-1] Task app.tasks.working[2f67bb18-c1de-4b11-bf1e-5a0223d08015] succeeded in 0.08452108899655286s: True
+[2018-08-17 01:33:49,996: WARNING/ForkPoolWorker-1] 任务耗时:6秒
+[2018-08-17 01:33:50,018: WARNING/ForkPoolWorker-1] ----END----
+[2018-08-17 01:33:50,019: INFO/ForkPoolWorker-1] Task app.tasks.runjob[db5785bb-eeae-4a23-b91e-bef20b4b2b12] succeeded in 6.031940375993145s: True
+[2018-08-17 01:34:00,003: INFO/MainProcess] Received task: app.tasks.firing[b06d7b25-85ab-41d4-b272-e06590089256]  
+[2018-08-17 01:34:00,004: WARNING/ForkPoolWorker-1] ----Fire Start----
+[2018-08-17 01:34:00,014: WARNING/ForkPoolWorker-1] 任务[2][2018-08-17]加入队列
+[2018-08-17 01:34:00,025: WARNING/ForkPoolWorker-1] 任务[3][2018-08-17]加入队列
+[2018-08-17 01:34:00,034: WARNING/ForkPoolWorker-1] ---- Fire End ----
+[2018-08-17 01:34:00,035: INFO/ForkPoolWorker-1] Task app.tasks.firing[b06d7b25-85ab-41d4-b272-e06590089256] succeeded in 0.030875334006850608s: True
+[2018-08-17 01:34:03,926: INFO/MainProcess] Received task: app.tasks.working[4a225d5c-a491-44fb-8a3b-a37912d5fce1]  
+[2018-08-17 01:34:03,928: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:34:03,937: INFO/MainProcess] Received task: app.tasks.queueing[f1a76829-0357-4f67-bdfc-417384ef2bb5]  
+[2018-08-17 01:34:03,941: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:34:03,984: WARNING/ForkPoolWorker-1] 任务[2][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:34:04,020: WARNING/ForkPoolWorker-1] 任务[3][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:34:04,023: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:34:04,024: INFO/ForkPoolWorker-1] Task app.tasks.queueing[f1a76829-0357-4f67-bdfc-417384ef2bb5] succeeded in 0.08382514301047195s: True
+[2018-08-17 01:34:04,025: WARNING/ForkPoolWorker-1] 任务[6][2018-08-17]满足条件,Running
+[2018-08-17 01:34:04,027: INFO/MainProcess] Received task: app.tasks.runjob[b0dc3999-ac2f-471e-94eb-afd39fb6e312]  
+[2018-08-17 01:34:04,030: WARNING/ForkPoolWorker-1] ----Start----
+[2018-08-17 01:34:04,030: WARNING/ForkPoolWorker-1] 任务编码:[6]
+[2018-08-17 01:34:04,030: WARNING/ForkPoolWorker-1] 任务名称:[第四层一作业]
+[2018-08-17 01:34:04,058: WARNING/ForkPoolWorker-1] 任务[8][2018-08-17]不满足条件,Waiting
+[2018-08-17 01:34:04,058: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:34:04,060: INFO/ForkPoolWorker-1] Task app.tasks.working[4a225d5c-a491-44fb-8a3b-a37912d5fce1] succeeded in 0.13141341700975318s: True
+[2018-08-17 01:34:12,040: WARNING/ForkPoolWorker-1] 任务耗时:8秒
+[2018-08-17 01:34:12,125: WARNING/ForkPoolWorker-1] ----END----
+[2018-08-17 01:34:12,126: INFO/ForkPoolWorker-1] Task app.tasks.runjob[b0dc3999-ac2f-471e-94eb-afd39fb6e312] succeeded in 8.098537883008248s: True
+[2018-08-17 01:34:23,934: INFO/MainProcess] Received task: app.tasks.queueing[d09ec9f0-7b53-4137-8267-c22ae80e0f35]  
+[2018-08-17 01:34:23,935: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:34:23,937: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:34:23,940: INFO/MainProcess] Received task: app.tasks.working[196578c3-62ff-4f43-a177-f8fbee03a3f2]  
+[2018-08-17 01:34:23,940: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:34:23,944: INFO/ForkPoolWorker-1] Task app.tasks.queueing[d09ec9f0-7b53-4137-8267-c22ae80e0f35] succeeded in 0.0097625530033838s: True
+[2018-08-17 01:34:23,971: WARNING/ForkPoolWorker-1] 任务[2][2018-08-17]满足条件,Running
+[2018-08-17 01:34:23,974: INFO/MainProcess] Received task: app.tasks.runjob[02147cfe-3ddf-4659-8dc6-66e21cf6be82]  
+[2018-08-17 01:34:23,978: WARNING/ForkPoolWorker-1] ----Start----
+[2018-08-17 01:34:23,978: WARNING/ForkPoolWorker-1] 任务编码:[2]
+[2018-08-17 01:34:23,978: WARNING/ForkPoolWorker-1] 任务名称:[第二层一作业]
+[2018-08-17 01:34:24,008: WARNING/ForkPoolWorker-1] 任务[3][2018-08-17]满足条件,Running
+[2018-08-17 01:34:24,010: INFO/MainProcess] Received task: app.tasks.runjob[98d62f40-cf89-4841-9967-533b310dff41]  
+[2018-08-17 01:34:24,030: WARNING/ForkPoolWorker-1] 任务[8][2018-08-17]不满足条件,Waiting
+[2018-08-17 01:34:24,031: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:34:24,032: INFO/ForkPoolWorker-1] Task app.tasks.working[196578c3-62ff-4f43-a177-f8fbee03a3f2] succeeded in 0.0917335970007116s: True
+[2018-08-17 01:34:30,985: WARNING/ForkPoolWorker-1] 任务耗时:7秒
+[2018-08-17 01:34:31,017: WARNING/ForkPoolWorker-1] 任务[4][2018-08-17]加入队列
+[2018-08-17 01:34:31,035: WARNING/ForkPoolWorker-1] 任务[5][2018-08-17]加入队列
+[2018-08-17 01:34:31,048: WARNING/ForkPoolWorker-1] ----END----
+[2018-08-17 01:34:31,049: INFO/ForkPoolWorker-1] Task app.tasks.runjob[02147cfe-3ddf-4659-8dc6-66e21cf6be82] succeeded in 7.0736267550091725s: True
+[2018-08-17 01:34:31,052: WARNING/ForkPoolWorker-1] ----Start----
+[2018-08-17 01:34:31,052: WARNING/ForkPoolWorker-1] 任务编码:[3]
+[2018-08-17 01:34:31,052: WARNING/ForkPoolWorker-1] 任务名称:[第二层二作业]
+[2018-08-17 01:34:41,063: WARNING/ForkPoolWorker-1] 任务耗时:10秒
+[2018-08-17 01:34:41,089: WARNING/ForkPoolWorker-1] 任务[7][2018-08-17]加入队列
+[2018-08-17 01:34:41,107: WARNING/ForkPoolWorker-1] ----END----
+[2018-08-17 01:34:41,108: INFO/ForkPoolWorker-1] Task app.tasks.runjob[98d62f40-cf89-4841-9967-533b310dff41] succeeded in 10.05747495200194s: True
+[2018-08-17 01:34:43,949: INFO/MainProcess] Received task: app.tasks.working[804bb6dc-3a8a-4e31-9df5-8c3ab2b0ba10]  
+[2018-08-17 01:34:43,953: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:34:43,961: INFO/MainProcess] Received task: app.tasks.queueing[8aa6a02e-dfc0-4593-a38e-0c1ea13a1d1f]  
+[2018-08-17 01:34:43,963: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:34:44,025: WARNING/ForkPoolWorker-1] 任务[4][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:34:44,039: WARNING/ForkPoolWorker-1] 任务[5][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:34:44,061: WARNING/ForkPoolWorker-1] 任务[7][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:34:44,065: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:34:44,066: INFO/ForkPoolWorker-1] Task app.tasks.queueing[8aa6a02e-dfc0-4593-a38e-0c1ea13a1d1f] succeeded in 0.10307251299673226s: True
+[2018-08-17 01:34:44,083: WARNING/ForkPoolWorker-1] 任务[8][2018-08-17]满足条件,Running
+[2018-08-17 01:34:44,085: INFO/MainProcess] Received task: app.tasks.runjob[c1234e7a-0ea6-44ff-9cfe-64205da2c4da]  
+[2018-08-17 01:34:44,090: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:34:44,091: WARNING/ForkPoolWorker-1] ----Start----
+[2018-08-17 01:34:44,092: WARNING/ForkPoolWorker-1] 任务编码:[8]
+[2018-08-17 01:34:44,092: WARNING/ForkPoolWorker-1] 任务名称:[第五层一作业]
+[2018-08-17 01:34:44,093: INFO/ForkPoolWorker-1] Task app.tasks.working[804bb6dc-3a8a-4e31-9df5-8c3ab2b0ba10] succeeded in 0.13992858900746796s: True
+[2018-08-17 01:34:52,100: WARNING/ForkPoolWorker-1] 任务耗时:8秒
+[2018-08-17 01:34:52,118: WARNING/ForkPoolWorker-1] ----END----
+[2018-08-17 01:34:52,119: INFO/ForkPoolWorker-1] Task app.tasks.runjob[c1234e7a-0ea6-44ff-9cfe-64205da2c4da] succeeded in 8.03216105599131s: True
+[2018-08-17 01:35:03,956: INFO/MainProcess] Received task: app.tasks.queueing[693af7d5-7737-4299-a3ae-1160169efb7a]  
+[2018-08-17 01:35:03,961: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:35:03,970: INFO/MainProcess] Received task: app.tasks.working[9ee0050f-c9db-4509-9a8c-1df5a4dd6033]  
+[2018-08-17 01:35:03,973: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:35:03,975: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:35:03,984: INFO/ForkPoolWorker-1] Task app.tasks.queueing[693af7d5-7737-4299-a3ae-1160169efb7a] succeeded in 0.023641730993404053s: True
+[2018-08-17 01:35:04,019: WARNING/ForkPoolWorker-1] 任务[4][2018-08-17]满足条件,Running
+[2018-08-17 01:35:04,021: INFO/MainProcess] Received task: app.tasks.runjob[28d0e430-dafe-441a-a5b0-8835e469b2b9]  
+[2018-08-17 01:35:04,024: WARNING/ForkPoolWorker-1] ----Start----
+[2018-08-17 01:35:04,024: WARNING/ForkPoolWorker-1] 任务编码:[4]
+[2018-08-17 01:35:04,025: WARNING/ForkPoolWorker-1] 任务名称:[第三层一作业]
+[2018-08-17 01:35:04,053: WARNING/ForkPoolWorker-1] 任务[5][2018-08-17]满足条件,Running
+[2018-08-17 01:35:04,055: INFO/MainProcess] Received task: app.tasks.runjob[4bebade7-d521-4318-a5bc-0148c93609e4]  
+[2018-08-17 01:35:04,080: WARNING/ForkPoolWorker-1] 任务[7][2018-08-17]不满足条件,Waiting
+[2018-08-17 01:35:04,080: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:35:04,082: INFO/ForkPoolWorker-1] Task app.tasks.working[9ee0050f-c9db-4509-9a8c-1df5a4dd6033] succeeded in 0.10708216100465506s: True
+[2018-08-17 01:35:11,028: WARNING/ForkPoolWorker-1] 任务耗时:7秒
+[2018-08-17 01:35:11,067: WARNING/ForkPoolWorker-1] 任务[6][2018-08-17]加入队列
+[2018-08-17 01:35:11,092: WARNING/ForkPoolWorker-1] ----END----
+[2018-08-17 01:35:11,094: INFO/ForkPoolWorker-1] Task app.tasks.runjob[28d0e430-dafe-441a-a5b0-8835e469b2b9] succeeded in 7.072183541997219s: True
+[2018-08-17 01:35:11,099: WARNING/ForkPoolWorker-1] ----Start----
+[2018-08-17 01:35:11,099: WARNING/ForkPoolWorker-1] 任务编码:[5]
+[2018-08-17 01:35:11,099: WARNING/ForkPoolWorker-1] 任务名称:[第三层二作业]
+[2018-08-17 01:35:18,107: WARNING/ForkPoolWorker-1] 任务耗时:7秒
+[2018-08-17 01:35:18,146: WARNING/ForkPoolWorker-1] ----END----
+[2018-08-17 01:35:18,147: INFO/ForkPoolWorker-1] Task app.tasks.runjob[4bebade7-d521-4318-a5bc-0148c93609e4] succeeded in 7.051678278003237s: True
+[2018-08-17 01:35:23,977: INFO/MainProcess] Received task: app.tasks.working[180930ea-0f41-4831-a4ce-2eb041ad8dbe]  
+[2018-08-17 01:35:23,982: INFO/MainProcess] Received task: app.tasks.queueing[6f0db9d1-d479-402a-a28b-6089518ed516]  
+[2018-08-17 01:35:23,985: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:35:23,991: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:35:24,019: WARNING/ForkPoolWorker-1] 任务[6][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:35:24,023: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:35:24,024: INFO/ForkPoolWorker-1] Task app.tasks.queueing[6f0db9d1-d479-402a-a28b-6089518ed516] succeeded in 0.03300615900661796s: True
+[2018-08-17 01:35:24,045: WARNING/ForkPoolWorker-1] 任务[7][2018-08-17]满足条件,Running
+[2018-08-17 01:35:24,047: INFO/MainProcess] Received task: app.tasks.runjob[043ef55d-1c3e-4ad6-8231-1c4bd66f8e58]  
+[2018-08-17 01:35:24,050: WARNING/ForkPoolWorker-1] ----Start----
+[2018-08-17 01:35:24,050: WARNING/ForkPoolWorker-1] 任务编码:[7]
+[2018-08-17 01:35:24,050: WARNING/ForkPoolWorker-1] 任务名称:[第四层二作业]
+[2018-08-17 01:35:24,051: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:35:24,052: INFO/ForkPoolWorker-1] Task app.tasks.working[180930ea-0f41-4831-a4ce-2eb041ad8dbe] succeeded in 0.06684801600931678s: True
+[2018-08-17 01:35:29,056: WARNING/ForkPoolWorker-1] 任务耗时:5秒
+[2018-08-17 01:35:29,093: WARNING/ForkPoolWorker-1] 任务[8][2018-08-17]加入队列
+[2018-08-17 01:35:29,112: WARNING/ForkPoolWorker-1] ----END----
+[2018-08-17 01:35:29,113: INFO/ForkPoolWorker-1] Task app.tasks.runjob[043ef55d-1c3e-4ad6-8231-1c4bd66f8e58] succeeded in 5.065673197997967s: True
+[2018-08-17 01:35:43,987: INFO/MainProcess] Received task: app.tasks.queueing[cf420f6f-771a-4c32-b747-89507b803d8c]  
+[2018-08-17 01:35:43,992: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:35:44,002: INFO/MainProcess] Received task: app.tasks.working[1b529af5-a5ad-4c76-abd3-5e40cdf97d7e]  
+[2018-08-17 01:35:44,008: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:35:44,047: WARNING/ForkPoolWorker-1] 任务[8][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:35:44,051: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:35:44,052: INFO/ForkPoolWorker-1] Task app.tasks.queueing[cf420f6f-771a-4c32-b747-89507b803d8c] succeeded in 0.06041988200740889s: True
+[2018-08-17 01:35:44,079: WARNING/ForkPoolWorker-1] 任务[6][2018-08-17]满足条件,Running
+[2018-08-17 01:35:44,080: INFO/MainProcess] Received task: app.tasks.runjob[1f60d430-7cdc-4360-848b-2ebffd10533e]  
+[2018-08-17 01:35:44,084: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:35:44,085: WARNING/ForkPoolWorker-1] ----Start----
+[2018-08-17 01:35:44,085: WARNING/ForkPoolWorker-1] 任务编码:[6]
+[2018-08-17 01:35:44,085: WARNING/ForkPoolWorker-1] 任务名称:[第四层一作业]
+[2018-08-17 01:35:44,086: INFO/ForkPoolWorker-1] Task app.tasks.working[1b529af5-a5ad-4c76-abd3-5e40cdf97d7e] succeeded in 0.07899150298908353s: True
+[2018-08-17 01:35:53,094: WARNING/ForkPoolWorker-1] 任务耗时:9秒
+[2018-08-17 01:35:53,139: WARNING/ForkPoolWorker-1] ----END----
+[2018-08-17 01:35:53,141: INFO/ForkPoolWorker-1] Task app.tasks.runjob[1f60d430-7cdc-4360-848b-2ebffd10533e] succeeded in 9.059604969006614s: True
+[2018-08-17 01:36:00,009: INFO/MainProcess] Received task: app.tasks.firing[d9e2a407-d651-451b-9763-19c42572edea]  
+[2018-08-17 01:36:00,010: WARNING/ForkPoolWorker-1] ----Fire Start----
+[2018-08-17 01:36:00,023: WARNING/ForkPoolWorker-1] 任务[2][2018-08-17]加入队列
+[2018-08-17 01:36:00,050: WARNING/ForkPoolWorker-1] 任务[3][2018-08-17]加入队列
+[2018-08-17 01:36:00,053: WARNING/ForkPoolWorker-1] ---- Fire End ----
+[2018-08-17 01:36:00,054: INFO/ForkPoolWorker-1] Task app.tasks.firing[d9e2a407-d651-451b-9763-19c42572edea] succeeded in 0.043722042988520116s: True
+[2018-08-17 01:36:03,986: INFO/MainProcess] Received task: app.tasks.queueing[e182cd26-e0f8-48c5-a625-14762fca419e]  
+[2018-08-17 01:36:03,992: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:36:04,006: INFO/MainProcess] Received task: app.tasks.working[d2c5ed79-7fe9-4ea0-bfb6-829918cd025d]  
+[2018-08-17 01:36:04,012: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:36:04,035: WARNING/ForkPoolWorker-1] 任务[2][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:36:04,052: WARNING/ForkPoolWorker-1] 任务[3][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:36:04,054: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:36:04,055: INFO/ForkPoolWorker-1] Task app.tasks.queueing[e182cd26-e0f8-48c5-a625-14762fca419e] succeeded in 0.06329941499279812s: True
+[2018-08-17 01:36:04,070: WARNING/ForkPoolWorker-1] 任务[8][2018-08-17]满足条件,Running
+[2018-08-17 01:36:04,072: INFO/MainProcess] Received task: app.tasks.runjob[c0b3372a-2527-4dbf-abab-c90212dfcff7]  
+[2018-08-17 01:36:04,075: WARNING/ForkPoolWorker-1] ----Start----
+[2018-08-17 01:36:04,076: WARNING/ForkPoolWorker-1] 任务编码:[8]
+[2018-08-17 01:36:04,076: WARNING/ForkPoolWorker-1] 任务名称:[第五层一作业]
+[2018-08-17 01:36:04,076: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:36:04,078: INFO/ForkPoolWorker-1] Task app.tasks.working[d2c5ed79-7fe9-4ea0-bfb6-829918cd025d] succeeded in 0.06590182000945788s: True
+[2018-08-17 01:36:12,085: WARNING/ForkPoolWorker-1] 任务耗时:8秒
+[2018-08-17 01:36:12,128: WARNING/ForkPoolWorker-1] ----END----
+[2018-08-17 01:36:12,131: INFO/ForkPoolWorker-1] Task app.tasks.runjob[c0b3372a-2527-4dbf-abab-c90212dfcff7] succeeded in 8.05778659900534s: True
+[2018-08-17 01:36:24,008: INFO/MainProcess] Received task: app.tasks.queueing[10e2a98a-e43b-4b85-8e3e-0db8cc627a14]  
+[2018-08-17 01:36:24,014: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:36:24,022: INFO/MainProcess] Received task: app.tasks.working[f5600977-2e49-4c5f-8206-71a3a8848f77]  
+[2018-08-17 01:36:24,024: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:36:24,033: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:36:24,036: INFO/ForkPoolWorker-1] Task app.tasks.queueing[10e2a98a-e43b-4b85-8e3e-0db8cc627a14] succeeded in 0.022119077999377623s: True
+[2018-08-17 01:36:24,071: WARNING/ForkPoolWorker-1] 任务[2][2018-08-17]满足条件,Running
+[2018-08-17 01:36:24,074: INFO/MainProcess] Received task: app.tasks.runjob[e35d2a38-b781-4e46-9155-1927ed14dabf]  
+[2018-08-17 01:36:24,077: WARNING/ForkPoolWorker-1] ----Start----
+[2018-08-17 01:36:24,078: WARNING/ForkPoolWorker-1] 任务编码:[2]
+[2018-08-17 01:36:24,078: WARNING/ForkPoolWorker-1] 任务名称:[第二层一作业]
+[2018-08-17 01:36:24,105: WARNING/ForkPoolWorker-1] 任务[3][2018-08-17]满足条件,Running
+[2018-08-17 01:36:24,108: INFO/MainProcess] Received task: app.tasks.runjob[6209f023-795b-4e08-aebc-6bd1c9f9ea1d]  
+[2018-08-17 01:36:24,108: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:36:24,111: INFO/ForkPoolWorker-1] Task app.tasks.working[f5600977-2e49-4c5f-8206-71a3a8848f77] succeeded in 0.08738666000135709s: True
+[2018-08-17 01:36:29,084: WARNING/ForkPoolWorker-1] 任务耗时:5秒
+[2018-08-17 01:36:29,122: WARNING/ForkPoolWorker-1] 任务[4][2018-08-17]加入队列
+[2018-08-17 01:36:29,148: WARNING/ForkPoolWorker-1] 任务[5][2018-08-17]加入队列
+[2018-08-17 01:36:29,160: WARNING/ForkPoolWorker-1] ----END----
+[2018-08-17 01:36:29,161: INFO/ForkPoolWorker-1] Task app.tasks.runjob[e35d2a38-b781-4e46-9155-1927ed14dabf] succeeded in 5.086158346006414s: True
+[2018-08-17 01:36:29,164: WARNING/ForkPoolWorker-1] ----Start----
+[2018-08-17 01:36:29,165: WARNING/ForkPoolWorker-1] 任务编码:[3]
+[2018-08-17 01:36:29,165: WARNING/ForkPoolWorker-1] 任务名称:[第二层二作业]
+[2018-08-17 01:36:34,171: WARNING/ForkPoolWorker-1] 任务耗时:5秒
+[2018-08-17 01:36:34,188: WARNING/ForkPoolWorker-1] 任务[7][2018-08-17]加入队列
+[2018-08-17 01:36:34,198: WARNING/ForkPoolWorker-1] 任务[8][2018-08-17]加入队列
+[2018-08-17 01:36:34,211: WARNING/ForkPoolWorker-1] ----END----
+[2018-08-17 01:36:34,212: INFO/ForkPoolWorker-1] Task app.tasks.runjob[6209f023-795b-4e08-aebc-6bd1c9f9ea1d] succeeded in 5.049661673998344s: True
+[2018-08-17 01:36:44,007: INFO/MainProcess] Received task: app.tasks.queueing[825a0caf-1db8-441c-b999-79c9597a64c4]  
+[2018-08-17 01:36:44,008: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:36:44,015: INFO/MainProcess] Received task: app.tasks.working[9b7fdf4a-f13a-4cda-95d3-968e3d86caa3]  
+[2018-08-17 01:36:44,016: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:36:44,019: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:36:44,021: INFO/ForkPoolWorker-1] Task app.tasks.working[9b7fdf4a-f13a-4cda-95d3-968e3d86caa3] succeeded in 0.004933916992740706s: True
+[2018-08-17 01:36:44,023: WARNING/ForkPoolWorker-1] 任务[4][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:36:44,033: WARNING/ForkPoolWorker-1] 任务[5][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:36:44,044: WARNING/ForkPoolWorker-1] 任务[7][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:36:44,056: WARNING/ForkPoolWorker-1] 任务[8][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:36:44,058: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:36:44,059: INFO/ForkPoolWorker-1] Task app.tasks.queueing[825a0caf-1db8-441c-b999-79c9597a64c4] succeeded in 0.05048763600643724s: True
+[2018-08-17 01:37:04,014: INFO/MainProcess] Received task: app.tasks.working[dc825296-55d4-4f33-8f30-f5300a053970]  
+[2018-08-17 01:37:04,016: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:37:04,028: INFO/MainProcess] Received task: app.tasks.queueing[a4a8ebd3-36f1-40ae-9c12-f5526000da58]  
+[2018-08-17 01:37:04,029: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:37:04,034: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:37:04,039: INFO/ForkPoolWorker-1] Task app.tasks.queueing[a4a8ebd3-36f1-40ae-9c12-f5526000da58] succeeded in 0.010097635997226462s: True
+[2018-08-17 01:37:04,115: WARNING/ForkPoolWorker-1] 任务[4][2018-08-17]满足条件,Running
+[2018-08-17 01:37:04,117: INFO/MainProcess] Received task: app.tasks.runjob[07ed768c-2c1e-4aff-89dc-e970fe704dbb]  
+[2018-08-17 01:37:04,120: WARNING/ForkPoolWorker-1] ----Start----
+[2018-08-17 01:37:04,120: WARNING/ForkPoolWorker-1] 任务编码:[4]
+[2018-08-17 01:37:04,120: WARNING/ForkPoolWorker-1] 任务名称:[第三层一作业]
+[2018-08-17 01:37:04,148: WARNING/ForkPoolWorker-1] 任务[5][2018-08-17]满足条件,Running
+[2018-08-17 01:37:04,150: INFO/MainProcess] Received task: app.tasks.runjob[56b86496-2c35-4b78-96c4-e9bb3580f52b]  
+[2018-08-17 01:37:04,169: WARNING/ForkPoolWorker-1] 任务[7][2018-08-17]不满足条件,Waiting
+[2018-08-17 01:37:04,192: WARNING/ForkPoolWorker-1] 任务[8][2018-08-17]不满足条件,Waiting
+[2018-08-17 01:37:04,192: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:37:04,193: INFO/ForkPoolWorker-1] Task app.tasks.working[dc825296-55d4-4f33-8f30-f5300a053970] succeeded in 0.17732562699529808s: True
+[2018-08-17 01:37:09,125: WARNING/ForkPoolWorker-1] 任务耗时:5秒
+[2018-08-17 01:37:09,159: WARNING/ForkPoolWorker-1] 任务[6][2018-08-17]加入队列
+[2018-08-17 01:37:09,181: WARNING/ForkPoolWorker-1] ----END----
+[2018-08-17 01:37:09,182: INFO/ForkPoolWorker-1] Task app.tasks.runjob[07ed768c-2c1e-4aff-89dc-e970fe704dbb] succeeded in 5.064625421000528s: True
+[2018-08-17 01:37:09,187: WARNING/ForkPoolWorker-1] ----Start----
+[2018-08-17 01:37:09,188: WARNING/ForkPoolWorker-1] 任务编码:[5]
+[2018-08-17 01:37:09,188: WARNING/ForkPoolWorker-1] 任务名称:[第三层二作业]
+[2018-08-17 01:37:14,193: WARNING/ForkPoolWorker-1] 任务耗时:5秒
+[2018-08-17 01:37:14,242: WARNING/ForkPoolWorker-1] ----END----
+[2018-08-17 01:37:14,245: INFO/ForkPoolWorker-1] Task app.tasks.runjob[56b86496-2c35-4b78-96c4-e9bb3580f52b] succeeded in 5.060636943002464s: True
+[2018-08-17 01:37:24,039: INFO/MainProcess] Received task: app.tasks.queueing[81e94704-4023-44f2-bf24-1b95bb4ff86e]  
+[2018-08-17 01:37:24,044: INFO/MainProcess] Received task: app.tasks.working[38d6eb6f-48ea-4663-871f-23aadf204dbe]  
+[2018-08-17 01:37:24,047: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:37:24,053: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:37:24,104: WARNING/ForkPoolWorker-1] 任务[6][2018-08-17]成功Pending,删除队列
+[2018-08-17 01:37:24,109: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:37:24,111: INFO/ForkPoolWorker-1] Task app.tasks.queueing[81e94704-4023-44f2-bf24-1b95bb4ff86e] succeeded in 0.06412972100952175s: True
+[2018-08-17 01:37:24,131: WARNING/ForkPoolWorker-1] 任务[7][2018-08-17]满足条件,Running
+[2018-08-17 01:37:24,133: INFO/MainProcess] Received task: app.tasks.runjob[02c5a1c9-bf61-47e5-90de-0f3ebbee68eb]  
+[2018-08-17 01:37:24,137: WARNING/ForkPoolWorker-1] ----Start----
+[2018-08-17 01:37:24,138: WARNING/ForkPoolWorker-1] 任务编码:[7]
+[2018-08-17 01:37:24,138: WARNING/ForkPoolWorker-1] 任务名称:[第四层二作业]
+[2018-08-17 01:37:24,161: WARNING/ForkPoolWorker-1] 任务[8][2018-08-17]不满足条件,Waiting
+[2018-08-17 01:37:24,161: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:37:24,162: INFO/ForkPoolWorker-1] Task app.tasks.working[38d6eb6f-48ea-4663-871f-23aadf204dbe] succeeded in 0.11009241400461178s: True
+[2018-08-17 01:37:32,148: WARNING/ForkPoolWorker-1] 任务耗时:8秒
+[2018-08-17 01:37:32,198: WARNING/ForkPoolWorker-1] ----END----
+[2018-08-17 01:37:32,198: INFO/ForkPoolWorker-1] Task app.tasks.runjob[02c5a1c9-bf61-47e5-90de-0f3ebbee68eb] succeeded in 8.064983054995537s: True
+[2018-08-17 01:37:44,049: INFO/MainProcess] Received task: app.tasks.working[c9362aef-2fe8-46de-9eaa-fc61f8a84ae4]  
+[2018-08-17 01:37:44,055: INFO/MainProcess] Received task: app.tasks.queueing[96bb3a25-18fa-4d8b-a4d5-7026d8a7a7b8]  
+[2018-08-17 01:37:44,058: WARNING/ForkPoolWorker-1] ----Work Start----
+[2018-08-17 01:37:44,063: WARNING/ForkPoolWorker-1] ----Queue Start----
+[2018-08-17 01:37:44,069: WARNING/ForkPoolWorker-1] ----Queue End----
+[2018-08-17 01:37:44,075: INFO/ForkPoolWorker-1] Task app.tasks.queueing[96bb3a25-18fa-4d8b-a4d5-7026d8a7a7b8] succeeded in 0.011412840001867153s: True
+[2018-08-17 01:37:44,114: WARNING/ForkPoolWorker-1] 任务[6][2018-08-17]满足条件,Running
+[2018-08-17 01:37:44,116: INFO/MainProcess] Received task: app.tasks.runjob[bc3d687a-5f6c-4f4c-b069-ff204d7bbcc5]  
+[2018-08-17 01:37:44,119: WARNING/ForkPoolWorker-1] ----Start----
+[2018-08-17 01:37:44,120: WARNING/ForkPoolWorker-1] 任务编码:[6]
+[2018-08-17 01:37:44,120: WARNING/ForkPoolWorker-1] 任务名称:[第四层一作业]
+[2018-08-17 01:37:44,143: WARNING/ForkPoolWorker-1] 任务[8][2018-08-17]不满足条件,Waiting
+[2018-08-17 01:37:44,143: WARNING/ForkPoolWorker-1] ---- Work End ----
+[2018-08-17 01:37:44,144: INFO/ForkPoolWorker-1] Task app.tasks.working[c9362aef-2fe8-46de-9eaa-fc61f8a84ae4] succeeded in 0.0870962229964789s: True
+[2018-08-17 01:37:53,129: WARNING/ForkPoolWorker-1] 任务耗时:9秒
+[2018-08-17 01:37:53,163: WARNING/ForkPoolWorker-1] ----END----
+[2018-08-17 01:37:53,163: INFO/ForkPoolWorker-1] Task app.tasks.runjob[bc3d687a-5f6c-4f4c-b069-ff204d7bbcc5] succeeded in 9.046512400993379s: True
+celery beat v4.2.1 (windowlicker) is starting.
+__    -    ... __   -        _
+LocalTime -> 2018-08-17 01:32:03
+Configuration ->
+    . broker -> redis://:**@192.168.134.151:6379/0
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> celery.beat.PersistentScheduler
+    . db -> celerybeat-schedule
+    . logfile -> [stderr]@%WARNING
+    . maxinterval -> 5.00 minutes (300s)

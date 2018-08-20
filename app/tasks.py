@@ -1,7 +1,7 @@
 from . import app,session
 from .models import Job,Job_Log,Job_Queue
 from sqlalchemy import func
-from datetime import datetime,date
+from datetime import datetime, date, timedelta
 
 #触发起点
 @app.task
@@ -11,13 +11,16 @@ def firing():
         job=session.query(Job).filter(Job.id==1).first()
         job.start_time=datetime.now() 
         job.end_time=datetime.now()
-        job.job_date=date.today()
+        if job.job_date:
+            job.job_date=job.job_date+timedelta(days = 1)
+        else:
+            job.job_date=date.today()
         session.add(job)
 
         log=Job_Log(job)
         session.add(log)
         
-        job.trigger_queueing()
+        job.queueing()
 
         print('---- Fire End ----')
         return True
@@ -30,7 +33,7 @@ def firing():
 
 #Queue转Pending
 @app.task
-def queueing():
+def triggering():
     try:
         print('----Queue Start----')
         queues=session.query(Job_Queue.job_id,func.min(Job_Queue.job_date).label('job_date')).\
@@ -76,12 +79,18 @@ def runjob(id):
         print('----Start----')
         print('任务编码:[%d]'%job.id)
         print('任务名称:[%s]'%job.job_name)
+
         import time,random
         t=random.randint(5,10)
         time.sleep(t)
         print('任务耗时:%d秒'%t)
-        if job.done():
-            job.trigger_queueing()
+        if t%2==0:
+            if job.done():
+                job.queueing()
+        else:
+            if job.failed():
+                print('任务运行失败')
+
         log=Job_Log(job)
         session.add(log)
         session.commit()

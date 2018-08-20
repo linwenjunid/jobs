@@ -22,7 +22,7 @@ CELERY_QUEUES = (
     Queue('default', default_exchange, routing_key='default'),
     Queue('working', job_exchange, routing_key='working'),
     Queue('firing', job_exchange, routing_key='firing'),
-    Queue('queueing', job_exchange, routing_key='queueing')
+    Queue('queueing', job_exchange, routing_key='triggering')
 )
 
 #设置默认的交换机、队列、绑定规则
@@ -36,9 +36,9 @@ CELERY_ROUTES = ({'app.tasks.working': {
                  }},{'app.tasks.firing': {
                         'queue': 'firing',
                         'routing_key': 'firing'
-                 }},{'app.tasks.queueing':{
-                        'queue': 'queueing',
-                        'routing_key': 'queueing'
+                 }},{'app.tasks.triggering':{
+                        'queue': 'triggering',
+                        'routing_key': 'triggering'
                  }}
                  )
 
@@ -54,14 +54,14 @@ CELERYBEAT_SCHEDULE = {
         'schedule': timedelta(seconds=5),
         'args': (),
     },
-    'queueing': {
-        'task': 'app.tasks.queueing',
+    'triggering': {
+        'task': 'app.tasks.triggering',
         'schedule': timedelta(seconds=5),
         'args': (),
     },
     "firing": {
         "task": "app.tasks.firing",
-        "schedule": crontab(hour="*", minute="*/2"),
+        "schedule": crontab(hour="*", minute="*/5"),
         "args": (),
     }
 }

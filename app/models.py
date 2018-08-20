@@ -7,6 +7,7 @@ class Job_Log(Base):
     __tablename__='job_logs'
     id         = Column(Integer,primary_key=True)
     job_id     = Column(Integer,ForeignKey('jobs.id'))
+    pend_time  = Column(DateTime())
     start_time = Column(DateTime())
     end_time   = Column(DateTime())
     job_date   = Column(Date())
@@ -14,6 +15,7 @@ class Job_Log(Base):
 
     def __init__(self,job):
         self.job_id     = job.id
+        self.pend_time  = job.pend_time
         self.start_time = job.start_time
         self.end_time   = job.end_time
         self.job_date   = job.job_date
@@ -61,7 +63,6 @@ class Trigger(Base):
     __tablename__='triggers'
     trigger_source_id = Column(Integer,ForeignKey('jobs.id'),primary_key=True)
     trigger_target_id = Column(Integer,ForeignKey('jobs.id'),primary_key=True)
-    job_date   = Column(Date())
 
 class Job(Base):
     __tablename__='jobs'
@@ -70,6 +71,7 @@ class Job(Base):
     job_desc   = Column(String(64))
     job_status = Column(String(64))
     job_enable = Column(Boolean,default=False)
+    pend_time  = Column(DateTime())
     start_time = Column(DateTime())
     end_time   = Column(DateTime())
     job_date   = Column(Date())
@@ -88,6 +90,20 @@ class Job(Base):
                                 lazy='dynamic',
                                 cascade='all,delete-orphan')
 
+    def failed(self):
+        try:
+            self.job_status='Failed'
+            self.end_time=datetime.now()
+            session.add(self)
+            session.commit()
+
+        except Exception as e:
+            print(e)
+            session.rollback()
+            return False
+        else:
+            return True
+
     def done(self):
         try:
             self.job_status='Done'
@@ -105,7 +121,8 @@ class Job(Base):
         try:
            self.job_status='Pending'
            self.job_date=d
-           self.start_time=datetime.now()
+           self.pend_time=datetime.now()
+           self.start_time= None
            self.end_time= None
            session.add(self)
            session.commit()
@@ -150,7 +167,7 @@ class Job(Base):
             session.rollback()
             return False
 
-    def trigger_queueing(self):
+    def queueing(self):
         try:
             jobs=session.query(Job).filter(Trigger.trigger_source_id==self.id,
                                            Trigger.trigger_target_id==Job.id,
